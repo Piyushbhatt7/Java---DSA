@@ -1,8 +1,6 @@
 
 import java.util.Scanner;
 
-
-
 public class Conditional {
     public static void main(String[] args) {
         
@@ -40,7 +38,12 @@ public class Conditional {
     System.out.print("Enter number number: ");
     Scanner sc1 = new Scanner(System.in);
     int b = sc1.nextInt();
+    
 
+    if(a == b){
+         
+        System.out.println("Both number are equal");
+    }
     
   }
 }
