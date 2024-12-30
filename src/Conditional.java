@@ -41,6 +41,6 @@ public class Conditional {
     Scanner sc1 = new Scanner(System.in);
     int b = sc1.nextInt();
 
-
+    
   }
 }
