@@ -44,6 +44,14 @@ public class Conditional {
          
         System.out.println("Both number are equal");
     }
+
+    else if (a > b){
+        System.out.println("A is greter then B");
+    }
+
+    else {
+        System.out.println("A is less then B");
+    }
     
   }
 }
