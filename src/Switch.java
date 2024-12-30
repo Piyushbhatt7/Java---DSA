@@ -5,7 +5,8 @@ public class Switch {
     public static void main(String[] args) {
         
         int button;
-
+        
+        System.out.print("Enter number from 1-3");
         Scanner sc = new Scanner(System.in);
         button = sc.nextInt();
 
