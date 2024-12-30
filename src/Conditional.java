@@ -19,4 +19,8 @@ public class Conditional {
 
     // odd and even number check
     
+
+    System.out.print("Enter any number: ");
+    Scanner sc = new Scanner(System.in);
+    
 }
