@@ -8,7 +8,7 @@ public class Table {
          int sum = 0;
 
 
-         System.out.print("Enter any number: ");
+         System.out.print("Enter any number: ");  
          Scanner sc = new Scanner(System.in);
          n = sc.nextInt();
 
