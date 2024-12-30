@@ -16,5 +16,9 @@ public class Switch {
         else if(button == 2){
             System.out.println("Namaste");
         }
+
+        else if(button == 3){
+            System.out.println("Bonjour");
+        }
     }
 }
