@@ -5,7 +5,7 @@ public class Table {
      public static void main(String[] args) {
          
          int n;
-         int sum ;
+         int sum;
 
 
          System.out.print("Enter any number: ");  
