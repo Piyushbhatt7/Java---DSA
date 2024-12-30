@@ -52,6 +52,5 @@ public class Switch {
                     System.out.println("Invalid number!");
         }
 
-
     }
 }
