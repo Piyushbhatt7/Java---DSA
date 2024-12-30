@@ -35,7 +35,10 @@ public class Conditional {
      
     System.out.print("Enter any number: ");
     Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+
     
+
 
   }
 }
