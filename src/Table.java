@@ -15,7 +15,8 @@ public class Table {
          for(int i =1; i<= 10 ; i++){
             
             sum = n*i;
+            System.out.println(sum);
          }
-         System.out.println(sum);
+         
      }
 } 
