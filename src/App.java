@@ -3,6 +3,9 @@ public class App {
         // output 
         // System.out.println("Hello, World!");
 
-        
+        System.out.println("*");
+        System.out.println("**");
+        System.out.println("***");
+        System.out.println("****");
     }
 }
