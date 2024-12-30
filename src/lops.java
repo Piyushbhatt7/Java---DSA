@@ -12,11 +12,17 @@ public class lops {
         //     i++;
         // }
 
-        int i = 0;
+        // int i = 0;
 
         // do {
         //     System.out.println(i);         // do-wile loop
         //      i++;
         // } while(i<=10);
+
+
+         int i = 12;
+         while(i<11){
+             System.out.println("Piyushhh");
+         }
     }
 }
