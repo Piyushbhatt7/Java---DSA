@@ -33,11 +33,13 @@ public class Conditional {
     //     System.out.println("Odd number");
     // }
      
-    System.out.print("Enter any number: ");
+    System.out.print("Enter first number: ");
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
 
-    
+    System.out.print("Enter number number: ");
+    Scanner sc1 = new Scanner(System.in);
+    int b = sc1.nextInt();
 
 
   }
