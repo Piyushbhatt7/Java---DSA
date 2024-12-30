@@ -20,5 +20,9 @@ public class Switch {
         else if(button == 3){
             System.out.println("Bonjour");
         }
+
+        else{
+            System.out.println("Invalid Button");
+        }
     }
 }
