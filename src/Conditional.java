@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 
 public class Conditional {
     public static void main(String[] args) {
@@ -20,16 +19,18 @@ public class Conditional {
     // odd and even number check
     
 
-    System.out.print("Enter any number: ");
-    Scanner sc = new Scanner(System.in);
-    int num = sc.nextInt();
+    // System.out.print("Enter any number: ");
+    // Scanner sc = new Scanner(System.in);
+    // int num = sc.nextInt();
     
-    if(num % 2 == 0){
-        System.out.println("Even number");
-    }
-    else {
-        System.out.println("Odd number");
-    }
+    // if(num % 2 == 0){
+    //     System.out.println("Even number");
+    // }
+    // else {
+    //     System.out.println("Odd number");
+    // }
+     
+    System.out.print("Enter any number: ");
 
   }
 }
