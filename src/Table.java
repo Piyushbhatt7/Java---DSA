@@ -8,13 +8,13 @@ public class Table {
          int sum = 0;
 
 
-         System.out.println("Enter any number: ");
+         System.out.print("Enter any number: ");
          Scanner sc = new Scanner(System.in);
          n = sc.nextInt();
 
-         for(int i =1; i<= n ; i++){
+         for(int i =1; i<= 10 ; i++){
             
-            sum = sum*n;
+            sum = n*i;
          }
          System.out.println(sum);
      }
