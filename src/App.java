@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         // output 
@@ -16,5 +19,20 @@ public class App {
 
         // int ans = (a*b) / (a-b);
         // System.out.println(ans);
+
+
+        int a,b,sum;
+
+        System.out.print("Enter first number: ");
+        Scanner sc = new Scanner(System.in);  
+        a = sc.nextInt();    
+        System.out.print("Enter second number: ");
+        
+        b = sc.nextInt();
+
+        sum = a+b;
+        System.out.println(sum);
+        
+
     }
 }
