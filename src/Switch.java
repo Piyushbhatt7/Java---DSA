@@ -6,7 +6,7 @@ public class Switch {
         
         int button;
         
-        System.out.print("Enter number from 1-3");
+        System.out.print("Enter number from 1-3: ");
         Scanner sc = new Scanner(System.in);
         button = sc.nextInt();
 
