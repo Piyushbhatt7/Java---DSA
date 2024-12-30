@@ -1,7 +1,7 @@
 public class lops {
     public static void main(String[] args) {
-        for(int counter = 0; counter<100 ; counter++){
-            System.out.println("Hello world");
+        for(int counter = 0; counter<10 ; counter++){
+            System.out.println(counter);
         }
     }
 }
