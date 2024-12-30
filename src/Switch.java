@@ -46,6 +46,7 @@ public class Switch {
 
             case 3:  
                     System.out.println("Bonjour");
+                    break;
         }
 
 
