@@ -20,8 +20,11 @@ public class HollowRectangle {
             for(j = 1 ; j<=m ; j++){
                 
                 // cell -> i,j
+                if(i == 1 || j == 1 || i == n || j == m){
                 System.out.println();
+                }
             }
+
         }
         
     }
