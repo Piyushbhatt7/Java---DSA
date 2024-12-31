@@ -12,7 +12,7 @@ public class HalfPyramid {
 
         for( i = 1; i <= n; i++){
              
-            for(j = 1 ; j <= i ; j++){                       // Number of Roes is equal to number of columns
+            for(j = 1 ; j <= i ; j++){                       // Number of Rows is equal to number of Columns
                 System.out.print("*");
             }
             System.out.println();
