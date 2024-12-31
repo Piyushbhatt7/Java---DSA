@@ -5,10 +5,10 @@ public class HollowRectangle {
     public static void main(String[] args) {
          
         int i,j, n, m;
-        System.out.print("Enter row number: ");
+        System.out.print("Enter column number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        System.out.print("Enter column number: ");
+        System.out.print("Enter row number: ");
         m = sc.nextInt(); 
 
         // outer loop
@@ -22,6 +22,9 @@ public class HollowRectangle {
                 // cell -> i,j
                 if(i == 1 || j == 1 || i == n || j == m){
                 System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
                 }
             }
             System.out.println();
