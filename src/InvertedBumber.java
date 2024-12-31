@@ -6,7 +6,7 @@ public class InvertedBumber {
         
         int i,j,n;
 
-        System.out.println("Enter any number: ");
+        System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
 
