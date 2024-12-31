@@ -15,6 +15,7 @@ public class NumberPyrmaid {
             for(j=1;j<=i;j++){
                 System.out.println(j+" ");
             }
+            System.out.println();
         }
     }
 }
