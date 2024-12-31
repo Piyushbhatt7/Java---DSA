@@ -7,9 +7,15 @@ public class InvertedHalfPyramid {
         
         int i, j, n;
         System.out.print("Enter any number: ");
-        Scanner sc = Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
 
+       for(i = 1; i >=n ; i--){
         
+        for(j = i; j <= 1 ; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+       }
     }
 }
