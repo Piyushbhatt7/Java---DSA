@@ -10,6 +10,8 @@ public class InvertedBumber {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
 
-        for(i=n;i<)
+        for(i=1;i<=n;i++){
+            
+        }
     }
 }
