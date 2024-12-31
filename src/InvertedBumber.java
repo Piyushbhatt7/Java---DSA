@@ -12,9 +12,9 @@ public class InvertedBumber {
 
         for(i=1;i<=n;i++){
 
-            for(j=1;j<n-i+1;j++){
+            for(j=1;j<=n-i+1;j++){
 
-                System.out.println(j);
+                System.out.print(j);
             }
             System.out.println();
         }
