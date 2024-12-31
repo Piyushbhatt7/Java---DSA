@@ -10,9 +10,9 @@ public class HalfPyramid {
         Scanner sc = new  Scanner(System.in);
         n = sc.nextInt();
 
-        for( i = 1; i >= n; i--){
+        for( i = 1; i <= n; i++){
              
-            for(j=n ; j<=i ; j++){
+            for(j = 1 ; j <= n ; j++){
                 System.out.print("*");
             }
         }
