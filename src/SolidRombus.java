@@ -14,8 +14,9 @@ public class SolidRombus {
                 System.out.print("*");
             }
             for(j=1;j<=n;j++){
-                System.out.println();
+               
             }
+             System.out.println();
         }
     }
 }
