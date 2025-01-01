@@ -20,8 +20,15 @@ public class ButterflyPatter {
             int spaces = 2*(n-i);
 
             for(int k = 1;k<=spaces;k++){
-                System.out.println();
+                System.out.print(" ");
             }
+
+            for( j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
+
+        // second half
     }
 }
