@@ -12,10 +12,9 @@ public class SolidRombus {
         for(i=1;i<+n;i++){
             for(j=1;j<=n;j++){
                 System.out.print("*");
+                
             }
-            for(j=1;j<=n;j++){
-               
-            }
+            
              System.out.println();
         }
     }
