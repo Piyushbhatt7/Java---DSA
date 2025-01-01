@@ -30,5 +30,23 @@ public class ButterflyPatter {
         }
 
         // second half
+
+        for(i=1;i<=n;i++){
+
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+
+            int spaces = 2*(n-i);
+
+            for(int k = 1;k<=spaces;k++){
+                System.out.print(" ");
+            }
+
+            for( j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
