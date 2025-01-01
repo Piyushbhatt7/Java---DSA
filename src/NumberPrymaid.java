@@ -13,14 +13,15 @@ public class NumberPrymaid {
 
         for(i=1;i<=n;i++){
 
-            for(j=1;j<=i;j++){
+            for(j=1;j<=n-i;j++){
 
                 System.out.print(" ");
 
             }
             for(j=1;j<=i;j++){
-                System.out.print(j);
-                j++;
+                System.out.print(i + " ");
+
+               // j++;
             }
             System.out.println();
            
