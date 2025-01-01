@@ -8,6 +8,7 @@ public class SolidRombus {
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        
+
+        for
     }
 }
