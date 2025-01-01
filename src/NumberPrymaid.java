@@ -20,7 +20,7 @@ public class NumberPrymaid {
             }
             for(j=1;j<=i;j++){
                 System.out.print(i + " ");
-
+ 
             }
             System.out.println();
            
