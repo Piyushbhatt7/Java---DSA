@@ -27,4 +27,4 @@ public class ZeroOneTriangle {
             System.out.println();
         }
     }
-}
+}  
