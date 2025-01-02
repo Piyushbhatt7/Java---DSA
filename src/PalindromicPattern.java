@@ -13,12 +13,12 @@ public class PalindromicPattern {
 
         for(i=1;i<=n;i++){
 
-            for(j=1;j<=i;j++){
-                System.out.print(i);
+            for(j=1;j<=n-i;j++){
+                System.out.print(" ");
             }
 
             for(j=2;j<=i;j++){
-                System.out.print(i-1);
+                System.out.print(j-i);
             }
             System.out.println();
         }
