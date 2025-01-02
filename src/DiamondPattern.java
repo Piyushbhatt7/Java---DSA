@@ -29,6 +29,8 @@ public class DiamondPattern {
             System.out.println();
 
         }
+
+        for(i=n;i>=1;i--)
         
     }
 }
