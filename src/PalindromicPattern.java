@@ -20,7 +20,7 @@ public class PalindromicPattern {
             for(j=i;j>=1;j--){
                 System.out.print(j);
             }
-            for(j=1;j<=i;j++){
+            for(j=2;j<=n-i;j++){
                 System.out.print(j );
             }
             System.out.println();
