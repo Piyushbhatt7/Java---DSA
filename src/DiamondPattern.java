@@ -10,7 +10,9 @@ public class DiamondPattern {
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+        
 
+        // uper half
         for(i=1;i<=n;i++){
 
             
