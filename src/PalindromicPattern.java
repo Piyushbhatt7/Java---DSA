@@ -10,6 +10,7 @@ public class PalindromicPattern {
         System.out.println("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
+
         
     }
 }
