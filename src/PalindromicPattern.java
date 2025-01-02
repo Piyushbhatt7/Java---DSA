@@ -7,10 +7,19 @@ public class PalindromicPattern {
         
         int i,j,n;
 
-        System.out.println("Enter any number: ");
+        System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
 
-        
+        for(i=1;i<=n;i++){
+
+            for(j=1;j<=n-i;j++){
+                System.out.print(i);
+            }
+
+            for(j=2;j<=i;j++){
+                System.out.print(i-1);
+            }
+        }
     }
 }
