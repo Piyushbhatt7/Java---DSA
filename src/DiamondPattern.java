@@ -14,12 +14,18 @@ public class DiamondPattern {
         for(i=1;i<=n;i++){
 
             
-            for(j=n;j>=i;j--){
-                System.out.println(" ");
+            for(j=1;j<=i;j++){
+                System.out.print(" ");
             }
-            for(j=1;j<=;j++){
-                System.out.println("*");
+            for(j=n;j<=i;j++){
+                System.out.print("*");
             }
+
+            for(k=1;k<=i;k++){
+                System.out.print("*");
+            }
+            System.out.println();
+
         }
         
     }
