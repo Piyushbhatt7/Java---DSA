@@ -28,7 +28,9 @@ public class DiamondPattern {
             }
             System.out.println();
 
-        }
+        }  
+
+        // lower half
 
         for(i=n;i>=1;i--){
 
