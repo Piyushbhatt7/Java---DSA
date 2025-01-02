@@ -12,8 +12,8 @@ public class Functions {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
+        String name = sc.next(); 
 
-        Myname(name);
+        Myname(name); // function call
     } 
 }
