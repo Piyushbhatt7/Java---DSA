@@ -9,6 +9,8 @@ public class DiamondPattern {
 
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+
         
     }
 }
