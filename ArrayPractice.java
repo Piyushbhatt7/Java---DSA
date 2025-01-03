@@ -23,7 +23,7 @@ public class ArrayPractice {
 
         for(int i=0;i<size;i++){
 
-            System.out.println(number[i]);
+            System.out.println("The array numbers are = " + number[i]);
         }
 
 
