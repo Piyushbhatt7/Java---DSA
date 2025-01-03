@@ -7,7 +7,9 @@ public class ArrayPractice {
         
         System.out.println("Enter any number: ");
         Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
         
+
 
     }
 }
