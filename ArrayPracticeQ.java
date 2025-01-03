@@ -17,14 +17,14 @@ public class ArrayPracticeQ {
              number[i] = sc.nextInt();
         }
         
-        System.out.print("Enter number to found!");
+        System.out.print("Enter number to found! : ");
         int x = sc.nextInt();
 
         // output
             
         for(int i = 0 ; i<number.length; i++){
              if(number[i] == x){
-                 System.out.println("X found at index " + i);
+                 System.out.println(x + " found at index " + i);
              }
         }
 
