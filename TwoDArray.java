@@ -13,9 +13,14 @@ public class TwoDArray {
 
          int [][] numbers = new int[row][col];
         // input
-        // rows
+        // row
          for(int i=0;i<row;i++){
+            
+            // columns
 
+            for(int j=0;j<col;j++){
+                numbers[i][j] = sc.nextInt();
+            }
          }
       }
 }
