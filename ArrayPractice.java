@@ -11,9 +11,14 @@ public class ArrayPractice {
 
         int number[] = new int[size];   // user input array size
         
+
+        // input 
+        
         for(int i=0;i<size;i++){
             number[i] = sc.nextInt();
         }
+
+        // output
 
         for(int i=0;i<size;i++){
 
