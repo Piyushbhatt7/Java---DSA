@@ -10,6 +10,6 @@ public class TwoDArray {
          int row = sc.nextInt();
          int col = sc.nextInt();
 
-         
+         int [][] 
       }
 }
