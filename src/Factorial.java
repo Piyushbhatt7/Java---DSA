@@ -18,5 +18,7 @@ public class Factorial {
         System.out.println("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+
+        System.out.println("The factorial of " + n + "is = " + factNumber(n));
     }
 }
