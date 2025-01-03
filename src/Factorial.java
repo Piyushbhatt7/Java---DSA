@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class Factorial {
     
     public static int factNumber(int n){
@@ -8,5 +11,11 @@ public class Factorial {
             fact = fact*i;
         }
         return fact;
+    }
+
+    public static void main(String[] args) {
+        
+        System.out.println("Enter any number: ");
+        Scanner sc = new Scanner(System)
     }
 }
