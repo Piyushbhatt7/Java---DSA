@@ -13,6 +13,8 @@ public class TwoDArray {
 
          int [][] numbers = new int[row][col];
 
-         for(int 1=0;i)
+         for(int 1=0;i<row;i++){
+            
+         }
       }
 }
