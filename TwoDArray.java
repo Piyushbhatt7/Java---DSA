@@ -5,7 +5,7 @@ public class TwoDArray {
      
       public static void main(String[] args) {
           
-         
+        System.out.print("Enter rows : ");
          Scanner sc = new Scanner(System.in);
          int row = sc.nextInt();
          System.out.print("Enter cols : ");
@@ -13,6 +13,6 @@ public class TwoDArray {
 
          int [][] numbers = new int[row][col];
 
-         for()
+         for(int 1=0;i)
       }
 }
