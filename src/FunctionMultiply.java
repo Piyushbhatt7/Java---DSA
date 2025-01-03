@@ -6,7 +6,7 @@ public class FunctionMultiply {
   public static int Mlti(int a, int b){
       
     int sum = a*b;
-    return sum;
+    return sum;   // return a*b;
   }
 
     public static void main(String[] args) {
