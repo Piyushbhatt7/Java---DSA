@@ -15,7 +15,7 @@ public class TwoDArray {
         // input
         // row
          for(int i=0;i<row;i++){
-            
+             
             // columns
 
             for(int j=0;j<col;j++){
