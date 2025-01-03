@@ -22,5 +22,13 @@ public class TwoDArray {
                 numbers[i][j] = sc.nextInt();
             }
          }
+
+         // output
+
+         for(1=0;i<row;i++){
+            for(int j=0;i<col;j++){
+                
+            }
+         }
       }
 }
