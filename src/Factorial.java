@@ -5,6 +5,12 @@ public class Factorial {
     
     public static int factNumber(int n){
 
+
+        if(n<0){
+            System.out.println("Invalid number!");
+            return -1;
+        }
+
         int fact = 1;
 
         for(int i = 1; i<=n; i++){
