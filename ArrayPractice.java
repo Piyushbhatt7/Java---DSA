@@ -11,6 +11,11 @@ public class ArrayPractice {
 
         int number[] = new int[size];   // user input array size
 
+        for(int i=0;i<size;i++){
+
+            System.out.println(number[i]);
+        }
+
 
     }
 }
