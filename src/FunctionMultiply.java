@@ -8,5 +8,6 @@ public class FunctionMultiply {
 
     public static void main(String[] args) {
         
+        System.out.print("Enter 2 numbers: ");
     }
 }
