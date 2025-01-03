@@ -7,6 +7,6 @@ public class Arrays {
         marks[1] = 98; // chem
         marks[2] = 98; // maths
 
-        System.out.println();
+        System.out.println(marks);
     }
 }
