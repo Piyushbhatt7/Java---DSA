@@ -9,6 +9,6 @@ public class Arrays {
 
         System.out.println(marks[0]);
         System.out.println(marks[0]);
-        
+        System.out.println(marks[0]);
     }
 }
