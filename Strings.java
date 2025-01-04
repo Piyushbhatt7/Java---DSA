@@ -15,9 +15,18 @@ public class Strings {
 
         // CONCATENATION
 
+        // String firstName = "tony";
+        // String lastName = "stark";
+        // String fullName = firstName + " " + lastName;
+        // System.out.println(fullName);
+
+        // to find the length
+
         String firstName = "tony";
         String lastName = "stark";
         String fullName = firstName + " " + lastName;
-        System.out.println(fullName);
+        System.out.println(fullName.length());
+
+
     }
 }
