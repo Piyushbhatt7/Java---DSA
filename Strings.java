@@ -8,8 +8,9 @@ public class Strings {
         // String name = "Kanchana";
         // String fullName = "Tony hulk";
         // String sentence = "HIII hulk and thor and all avengers";
-
+        System.out.print("Enter your name: ");
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
+        System.out.print("Your name is " + name);
     }
 }
