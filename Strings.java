@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 
 public class Strings {
     
@@ -8,9 +7,17 @@ public class Strings {
         // String name = "Kanchana";
         // String fullName = "Tony hulk";
         // String sentence = "HIII hulk and thor and all avengers";
-        System.out.print("Enter your name: ");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        System.out.print("Your name is " + name);
+        
+        // System.out.print("Enter your name: ");
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // System.out.print("Your name is " + name);
+
+        // CONCATENATION
+
+        String firstName = "tony";
+        String lastName = "stark";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
     }
 }
