@@ -6,5 +6,9 @@ public class TransposeMatrix {
         
         System.out.print("Enter rows: ");
         Scanner sc = new Scanner(System.in);
+        int rows = sc.nextInt();
+        int cols = sc.nextInt();
+
+        
     }
 }
