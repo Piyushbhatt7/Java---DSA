@@ -9,7 +9,10 @@ public class MatPractice {
         
         System.out.println("Enter rows: ");
         Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int number[] = new int[size];
+        int rows = sc.nextInt();
+        System.out.println("Enter columns: ");
+        int cols = sc.nextInt();
+
+        
     }
 }
