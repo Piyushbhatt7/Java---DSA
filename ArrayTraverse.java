@@ -18,5 +18,14 @@ public class ArrayTraverse {
 
         System.out.println("Enter number to find : ");
         int x = sc.nextInt();
+
+        // output
+
+        for(int i=0;i<size;i++){
+
+            if(number[i] = x){
+                System.out.println();
+            }
+        }
     }
 }
