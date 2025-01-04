@@ -10,5 +10,6 @@ public class MatPractice {
         System.out.println("Enter rows: ");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
+        int number[] = new int[size];
     }
 }
