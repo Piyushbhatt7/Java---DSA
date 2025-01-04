@@ -18,27 +18,28 @@ public class TransposeMatrix {
 
                 numbers[i][j] = sc.nextInt();
             }
+            System.out.println();
         }
 
         // outputs
 
-        for(int i=0;i<rows;i++){
+        // for(int i=0;i<rows;i++){
              
-            for(int j=0;j<cols;j++){
+        //     for(int j=0;j<cols;j++){
 
-                System.out.print(numbers[i][j] + " ");
-            }
+        //         System.out.print(numbers[i][j] + " ");
+        //     }
 
-            System.out.println();
-        }
+        //     System.out.println();
+        // }
            // Transpose of Matrix
-           
+
         System.out.println("The Transpose of Matrix is: ");
 
         for(int i=0;i<cols;i++){
             for(int j=0; j<rows; j++){
 
-                System.out.println(numbers[i][j] + " ");
+                System.out.print(numbers[i][j] + " ");
             }
         }
 
