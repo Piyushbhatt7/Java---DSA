@@ -8,6 +8,7 @@ public class Matric {
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
         System.out.println("Enter number of columns : ");
+        int cols = sc.nextInt();
         
     }
 }
