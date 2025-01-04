@@ -11,6 +11,15 @@ public class Matric {
         int cols = sc.nextInt();
         int numbers[][] = new int[rows][cols];
 
+        for(int i=0;i<rows;i++){
+
+            for(int j=0;j<cols;j++){
+
+                numbers[i][j] = sc.nextInt();
+
+            }
+        }
+
         
     }
 }
