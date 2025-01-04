@@ -17,5 +17,6 @@ public class ArrayTraverse {
         }
 
         System.out.println("Enter number to find : ");
+        int x = sc.nextInt();
     }
 }
