@@ -7,10 +7,10 @@ public class MatPractice {
     
     public static void main(String[] args) {
         
-        System.out.println("Enter rows: ");
+        System.out.print("Enter rows: ");
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
-        System.out.println("Enter columns: ");
+        System.out.print("Enter columns: ");
         int cols = sc.nextInt();
         int numbers [][] = new int[rows][cols];
         for(int i=0;i<rows;i++){
@@ -21,7 +21,7 @@ public class MatPractice {
             }
         }
         
-        System.out.println("Enter number to found: ");
+        System.out.print("Enter number to found: ");
         int x = sc.nextInt();
 
         for(int i=0;i<rows;i++){
