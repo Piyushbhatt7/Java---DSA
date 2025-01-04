@@ -8,6 +8,6 @@ public class ArrayTraverse {
         System.out.println("Enter the size of array: ");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        
+        int number[] = new int[size];
     }
 }
