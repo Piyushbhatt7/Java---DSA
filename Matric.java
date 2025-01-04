@@ -9,6 +9,8 @@ public class Matric {
         int rows = sc.nextInt();
         System.out.println("Enter number of columns : ");
         int cols = sc.nextInt();
+        int numbers[][] = new int[rows][cols];
+
         
     }
 }
