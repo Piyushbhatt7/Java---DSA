@@ -18,7 +18,7 @@ public class TransposeMatrix {
 
                 numbers[i][j] = sc.nextInt();
             }
-            System.out.println();
+            
         }
 
         // outputs
@@ -35,12 +35,13 @@ public class TransposeMatrix {
            // Transpose of Matrix
 
         System.out.println("The Transpose of Matrix is: ");
-
-        for(int i=0;i<cols;i++){
-            for(int j=0; j<rows; j++){
+        
+        for(int j=0; j<rows; j++){
+            for(int i=0;i<cols;i++){
 
                 System.out.print(numbers[i][j] + " ");
             }
+            System.out.println();
         }
 
     }
