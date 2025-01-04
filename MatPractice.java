@@ -27,8 +27,9 @@ public class MatPractice {
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                  
+                // compare
                 if(numbers[i][j] == x){
-                    System.out.print(x + "Found at index" + numbers[i][j]);
+                    System.out.print(x + " Found at location ("+ i + "," + j + ")");
                 }
             }
         }
