@@ -12,7 +12,7 @@ public class TransposeMatrix {
         int numbers[][] = new int[rows][cols];
         
         // inputs
-        
+
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
 
@@ -26,7 +26,19 @@ public class TransposeMatrix {
              
             for(int j=0;j<cols;j++){
 
-                System.out.println(numbers[i][j]);
+                System.out.print(numbers[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+           // Transpose of Matrix
+           
+        System.out.println("The Transpose of Matrix is: ");
+
+        for(int i=0;i<cols;i++){
+            for(int j=0; j<rows; j++){
+
+                System.out.println(numbers[i][j] + " ");
             }
         }
 
