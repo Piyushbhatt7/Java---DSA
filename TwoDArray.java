@@ -29,7 +29,7 @@ public class TwoDArray {
             for(int j=0;j<col;j++){
               System.out.print(numbers[i][j] + " ");
             }
-            System.out.println();
+            System.out.println(); 
             
          }
       }
