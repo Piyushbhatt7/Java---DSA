@@ -13,6 +13,7 @@ public class ArrayTraverse {
         for(int i=0;i<size;i++){
             
             System.out.println("Enter number: ");
+            number[i] = sc.nextInt();
         }
     }
 }
