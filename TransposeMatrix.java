@@ -32,6 +32,7 @@ public class TransposeMatrix {
 
         //     System.out.println();
         // }
+        
            // Transpose of Matrix
 
         System.out.println("The Transpose of Matrix is: ");
