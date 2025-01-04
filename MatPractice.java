@@ -20,5 +20,11 @@ public class MatPractice {
 
             }
         }
+
+        int x = sc.nextInt();
+
+        for(int i=0;i<rows;i++){
+            
+        }
     }
 }
