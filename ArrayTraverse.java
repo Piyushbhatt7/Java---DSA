@@ -24,7 +24,7 @@ public class ArrayTraverse {
         for(int i=0;i<size;i++){
 
             if(number[i] == x){
-                System.out.println(x + "found at index " + i);
+                System.out.println(x + " found at index " + i);
             }
         }
     }
