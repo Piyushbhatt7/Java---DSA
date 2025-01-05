@@ -40,12 +40,20 @@ public class Strings {
         // 2 s1 == s2  0
         // 3 s1 < s2   - ve value
        
-        if(name1.compareTo(name2) == 0) {
+        // if(name1.compareTo(name2) == 0) {
+        //      System.out.println("Strings are equal");
+        // }
+        // else {
+        //     System.out.println("Not equals");
+        // }
+
+        if(name1 == name2) {
              System.out.println("Strings are equal");
-        }
+        }                                                                         
         else {
             System.out.println("Not equals");
         }
+
 
     }
 }
