@@ -7,12 +7,15 @@ public class StringBuilders {
 
         //  charAt index 0
 
-        System.out.println(sb.charAt(0));
+    //     System.out.println(sb.charAt(0));
 
-        // set char at index 0
+    //     // set char at index 0
 
-       sb.setCharAt(0, 'P');
-       System.out.println(sb);
+    //    sb.setCharAt(0, 'P');
+    //    System.out.println(sb);
+
+    sb.insert(0, 's');
+    System.out.println(sb);
 
     }
 }
