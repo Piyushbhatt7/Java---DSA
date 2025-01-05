@@ -35,7 +35,10 @@ public class Strings {
         
         String name1 = "Tony";
         String name2 = "Tony";
-
+        
+        // 1 s1 > s2   + ve
+        // 2 s1 == s2  0
+        // 3 s1 < s2   - ve value
         if(name1.compareTo(name2)) {
             
         }
