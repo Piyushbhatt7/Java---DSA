@@ -49,7 +49,7 @@ public class Strings {
 
         if(name1 == name2) {
              System.out.println("Strings are equal");
-        }                                                                         
+        }                                                                 // == it got failed i many cases        
         else {
             System.out.println("Not equals");
         }
