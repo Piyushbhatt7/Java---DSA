@@ -22,16 +22,18 @@ public class Strings {
 
         // to find the length
 
-        String firstName = "tony";
-        String lastName = "stark";
-        String fullName = firstName + "@" + lastName;
-        System.out.println(fullName.length());
+        // String firstName = "tony";
+        // String lastName = "stark";
+        // String fullName = firstName + "@" + lastName;
+        // System.out.println(fullName.length());
 
-        // charAt
+        // // charAt
        
-        for(int i=0;i<fullName.length(); i++){
-            System.out.println(fullName.charAt(i));
-        }
+        // for(int i=0;i<fullName.length(); i++){
+        //     System.out.println(fullName.charAt(i));
+        // }
+
+
 
     }
 }
