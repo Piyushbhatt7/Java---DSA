@@ -28,7 +28,10 @@ public class Strings {
         System.out.println(fullName.length());
 
         // charAt
-
+       
+        for(int i=0;i<fullName.length(); i++){
+            
+        }
 
     }
 }
