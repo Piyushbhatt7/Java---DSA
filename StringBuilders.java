@@ -8,5 +8,7 @@ public class StringBuilders {
         //  charAt index 0
 
         System.out.println(sb.charAt(0));
+
+        // set char at index
     }
 }
