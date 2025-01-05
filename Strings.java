@@ -58,5 +58,9 @@ public class Strings {
 
             System.out.println("Both are equal");
          }
+
+         else {
+             System.out.println("Not equal");
+         }
     }
 }
