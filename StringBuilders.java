@@ -14,7 +14,7 @@ public class StringBuilders {
     //    sb.setCharAt(0, 'P');
     //    System.out.println(sb);
 
-    sb.insert(0, 's');
+    sb.insert(2, 'n');
     System.out.println(sb);
 
     }
