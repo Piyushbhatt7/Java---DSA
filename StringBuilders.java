@@ -21,7 +21,7 @@ public class StringBuilders {
     // delete the extra 'n'
 
     sb.delete(2, 3); // non-inclusive
-    System.out.println();
+    System.out.println(sb);
 
     }
 }
