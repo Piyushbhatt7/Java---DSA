@@ -54,13 +54,16 @@ public class Strings {
         //     System.out.println("Not equals");
         // }
 
-         if(new String("Tony") == new String("Tony")){
+        //  if(new String("Tony") == new String("Tony")){
 
-            System.out.println("Both are equal");
-         }
+        //     System.out.println("Both are equal");
+        //  }
 
-         else {
-             System.out.println("Not equal");
-         }
+        //  else {
+        //      System.out.println("Not equal");
+        //  }
+
+        String sentence = "My name is Tony";
+        String name = sentence.substring(11);
     }
 }
