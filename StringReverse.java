@@ -8,7 +8,9 @@ public class StringReverse {
 
             int font = i;
             int back = sb.length() - 1 - i;
-            
+
+            char fontChar  = sb.charAt(font);
+            char backChar  = sb.charAt(back);
         }
     }
 }
