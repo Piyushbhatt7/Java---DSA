@@ -1,0 +1,1 @@
+String fullName = firstName + " " + lastName;
