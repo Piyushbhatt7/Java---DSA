@@ -10,7 +10,7 @@ public class StringReverse {
             int back = sb.length() - 1 - i;
 
             char fontChar = sb.charAt(font);
-            char backChar  = sb.charAt(back);
+            char backChar = sb.charAt(back);
 
             sb.setCharAt(font, backChar);
             sb.setCharAt(back, fontChar);
