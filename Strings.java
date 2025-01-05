@@ -32,8 +32,9 @@ public class Strings {
         // for(int i=0;i<fullName.length(); i++){
         //     System.out.println(fullName.charAt(i));
         // }
-
-
+        
+        Strings name1 = "Tony";
+        Strings name2 = "Tony"
 
     }
 }
