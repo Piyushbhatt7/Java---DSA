@@ -7,7 +7,7 @@ public class StringReverse {
         for(int i=0 ;i<sb.length()/2; i++){
 
             int font = i;
-            int back = 
+            int back = sb.length() - 1 - i;
         }
     }
 }
