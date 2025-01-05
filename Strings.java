@@ -65,6 +65,6 @@ public class Strings {
 
         String sentence = "My name is Tony";
         substring(beg index, end index);
-        String name = sentence.substring(11);
+        String name = sentence.substring(11, sentence.length());
     }
 }
