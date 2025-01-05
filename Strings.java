@@ -47,14 +47,14 @@ public class Strings {
         //     System.out.println("Not equals");
         // }
 
-        if(name1 == name2) {
-             System.out.println("Strings are equal");
-        }                                                                 // == it got failed i many cases        
-        else {
-            System.out.println("Not equals");
-        }
+        // if(name1 == name2) {
+        //      System.out.println("Strings are equal");
+        // }                                                                 // == it got failed i many cases        
+        // else {
+        //     System.out.println("Not equals");
+        // }
 
-         if(new String("Tony") == new String("Tonny")){
+         if(new String("Tony") == new String("Tony")){
 
             System.out.println("Both are equal");
          }
