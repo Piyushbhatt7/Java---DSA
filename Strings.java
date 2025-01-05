@@ -34,7 +34,9 @@ public class Strings {
         // }
         
         Strings name1 = "Tony";
-        Strings name2 = "Tony"
+        Strings name2 = "Tony";
+
+        
 
     }
 }
