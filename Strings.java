@@ -27,6 +27,8 @@ public class Strings {
         String fullName = firstName + " " + lastName;
         System.out.println(fullName.length());
 
+        
+
 
     }
 }
