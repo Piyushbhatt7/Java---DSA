@@ -17,5 +17,11 @@ public class StringBuilders {
     sb.insert(2, 'n');
     System.out.println(sb);
 
+
+    // delete the extra 'n'
+
+    sb.delete(2, 3); // non-inclusive
+    System.out.println();
+
     }
 }
