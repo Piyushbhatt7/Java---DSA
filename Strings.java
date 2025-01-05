@@ -33,8 +33,8 @@ public class Strings {
         //     System.out.println(fullName.charAt(i));
         // }
         
-        Strings name1 = "Tony";
-        Strings name2 = "Tony";
+        String name1 = "Tony";
+        String name2 = "Tony";
 
         
 
