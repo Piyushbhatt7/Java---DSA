@@ -9,6 +9,9 @@ public class StringBuilders {
 
         System.out.println(sb.charAt(0));
 
-        // set char at index
+        // set char at index 0
+
+        System.out.println(sb.setCharAt(0, 'p'));
+
     }
 }
