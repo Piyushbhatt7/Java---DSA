@@ -54,6 +54,9 @@ public class Strings {
             System.out.println("Not equals");
         }
 
+         if(new String("Tony") == new String("Tonny")){
 
+            System.out.println("Both are equal");
+         }
     }
 }
