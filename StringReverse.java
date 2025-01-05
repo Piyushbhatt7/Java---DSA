@@ -15,5 +15,7 @@ public class StringReverse {
             sb.setCharAt(font, backChar);
             sb.setCharAt(back, fontChar);
         }
+
+        System.out.println(sb);
     }
 }
