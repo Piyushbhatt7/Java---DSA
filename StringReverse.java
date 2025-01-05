@@ -5,7 +5,9 @@ public class StringReverse {
         StringBuilder sb = new StringBuilder("Hello");
 
         for(int i=0 ;i<sb.length()/2; i++){
-            
+
+            int font = i;
+            int back = 
         }
     }
 }
