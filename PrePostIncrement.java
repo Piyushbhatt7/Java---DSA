@@ -10,6 +10,10 @@ public class PrePostIncrement {
     //    System.out.println(a);
     //    System.out.print(b);
 
+    int a = 10, b = 20, c = 30;
+
+    
+
     
 
     }
