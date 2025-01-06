@@ -16,7 +16,9 @@ public class PrePostIncrement {
     //     System.out.println(true);
     // }
 
-    
+    if(a<b || c<a){
+        System.out.println();
+    }
 
     }
 }
