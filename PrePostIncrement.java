@@ -5,8 +5,8 @@ public class PrePostIncrement {
        int a = 10;
        int b = 0;
 
-     //  b = a++;
-       b = ++a;
+       b = a--;
+       // b = --a;
        System.out.println(a);
        System.out.print(b);
 
