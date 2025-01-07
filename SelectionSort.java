@@ -21,6 +21,8 @@ public class SelectionSort {
                     smallest = j;
                 }
             }
+
+            int temp = 
         }
     }
 }
