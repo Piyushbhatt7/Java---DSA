@@ -22,7 +22,8 @@ public class SelectionSort {
                 }
             }
 
-            int temp = 
+            int temp = arr[smallest];
+            
         }
     }
 }
