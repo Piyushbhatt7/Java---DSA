@@ -6,13 +6,8 @@ public class SetBit {
         int position = 1;
 
         int bitMask = 1<<position;
-
-         if((bitMask | n) == 0) {
-
-            System.out.println("0");
-         }
-         else{
-            System.out.println("1");
-         }
+        int newnumber = bitMask | n;
+        
+        System.out.println(newnumber);
     }
 }
