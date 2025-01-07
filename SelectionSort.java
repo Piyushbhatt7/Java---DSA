@@ -26,5 +26,7 @@ public class SelectionSort {
             arr[smallest] = arr[i];
             arr[i] = temp;
         }
+
+        printArray(arr);
     }
 }
