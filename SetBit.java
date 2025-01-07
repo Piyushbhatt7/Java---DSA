@@ -7,7 +7,7 @@ public class SetBit {
 
         int bitMask = 1<<position;
 
-         if(bitMask | n) == 0 {
+         if((bitMask | n) == 0) {
 
             System.out.println("0");
          }
