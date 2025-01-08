@@ -1,1 +1,1 @@
-(bitMask | n) == 0
+arr
