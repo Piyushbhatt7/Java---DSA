@@ -11,6 +11,8 @@ public class SelectionSort {
         
         int arr[] = {7,8,3,1,2};
 
+        // time complexity = 0(n^2)
+
         for(int i=0; i<arr.length-1; i++){
 
             int smallest = i;
