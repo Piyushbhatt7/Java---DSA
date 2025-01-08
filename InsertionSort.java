@@ -21,6 +21,10 @@ public class InsertionSort {
                 arr[j+1] = arr[j];
                 j--;
             }
+
+            // placment
+
+            arr[j+1] = current;
         }
         
     }
