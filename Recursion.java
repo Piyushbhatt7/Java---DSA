@@ -12,6 +12,7 @@ public class Recursion {
     public static void main(String[] args) {
         
         int n = 5;
-        printNum(5);
+        printNum(5y
+        );
     }
 }
