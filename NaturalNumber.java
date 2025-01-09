@@ -5,6 +5,7 @@ public class NaturalNumber {
 
             sum+= i;
             System.out.println(sum);
+            return;
         }
         sum += i;
         printSum(i+1, n, sum);
