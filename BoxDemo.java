@@ -15,11 +15,7 @@ class Box {
         depth = d;
     }
 
-    
-    
 }
-
-
 
 public class BoxDemo {
     
