@@ -25,13 +25,7 @@ public class Students {
         System.out.print("Enter you rollNo.: ");
         rollno = sc.nextInt();
       
-         
     }
-
-
-
-
-
 
     public static void main(String[] args) {
        
