@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Students {
     
     
-   // class First {
+   
        
     int rollno;
     String name;
@@ -24,7 +24,7 @@ public class Students {
        
         System.out.print("Enter you rollNo.: ");
         rollno = sc.nextInt();
-      //}
+      
          
     }
 
