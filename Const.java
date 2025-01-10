@@ -23,7 +23,7 @@ public class Const {
 
   void display() {
 
-    System.out.println(name + " " + age + " " + id);
+    System.out.println(name + "\n" + age + "\n" + id);
   }
 
 
