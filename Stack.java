@@ -40,6 +40,26 @@ public class Stack {
         
         Pop mypop1 = new Pop();
         Pop mypop2 = new Pop();
-        
+
+        for(int i=0; i<10; i++){
+            mypop1.push(i);
+        }
+
+        for(int i=0; i<10; i++){
+            mypop2.push(i);
+        }
+
+        System.out.println("Stack is mypop1: ");
+
+        for(int i=0; i<10; i++){
+            System.out.println(mypop1.pop());
+        }
+
+        System.out.println("Stack is mypop2: ");
+
+        for(int i=0; i<10; i++)
+        {
+            System.out.println(mypop2.pop());
+        }
     }
 }
