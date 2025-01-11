@@ -30,18 +30,14 @@ class Stack {
             } else {
                 return stack[tos--];
             }
-        }
-    
-
-
-    
+        } 
 }
-
 
 
 public class Stack {
     
     public static void main(String[] args) {
+        
         
     }
 }
