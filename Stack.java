@@ -1,10 +1,10 @@
 
-class Stack {
+class Pop {
 
     int stack[] = new int[10];
     int tos;
 
-     Stack()
+     Pop()
       {
 
         tos = -1;
@@ -38,6 +38,8 @@ public class Stack {
     
     public static void main(String[] args) {
         
+        Pop mypop1 = new Pop();
+        Pop mypop2 = new Pop();
         
     }
 }
