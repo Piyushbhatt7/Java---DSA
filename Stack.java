@@ -55,6 +55,8 @@ public class Stack {
             System.out.println(mypop1.pop());
         }
 
+        System.out.println();
+
         System.out.println("Stack is mypop2: ");
 
         for(int i=0; i<10; i++)
