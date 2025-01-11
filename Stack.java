@@ -19,9 +19,21 @@ class Stack {
         else {
             stack[++tos] = item;
         }
-    }
 
+
+    }
     
+        int pop() {
+            if(tos < 0) {
+                System.out.println("Stack underflow");
+                return 0;
+            } else {
+                return stack[tos--];
+            }
+        }
+    
+
+
     
 }
 
