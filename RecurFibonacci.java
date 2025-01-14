@@ -19,6 +19,6 @@ public class RecurFibonacci {
         System.out.println(a);
         System.out.println(b);
         int n = 7;
-        printFibo(a, b, b);
+        printFibo(a, b, n-2);
     }
 }
