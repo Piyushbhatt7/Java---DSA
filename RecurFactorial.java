@@ -14,8 +14,8 @@ public class RecurFactorial {
     public static void main(String[] args) {
         
         int n = 5;
-        printFactorial(n);
-        System.out.print(printFactorial(n));
+        int ans = printFactorial(n);
+        System.out.print(ans);
 
     }
 }
