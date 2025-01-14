@@ -13,7 +13,9 @@ public class RecurFactorial {
 
     public static void main(String[] args) {
         
+        
         int n = 5;
+        System.out.print("Enter any number: ");
         int ans = printFactorial(n);
         System.out.print(ans);
 
