@@ -1,8 +1,15 @@
 public class RecurFibonacci {
     
-   public static void printFibo(int a, int b, int c)
-   {
-       
+   public static void printFibo(int a, int b, int n)
+   {   
+    
+      if(n == 0) 
+      {
+        return;
+      }
+       int c = a+b;
+       System.out.println(c);
+       printFibo(b, c, n-1);
 
    }
 
