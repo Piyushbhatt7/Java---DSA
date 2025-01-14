@@ -2,7 +2,7 @@ public class RecurFactorial {
     
 
    public static int printFactorial(int n)
-   {   if(n == 1) {
+   {   if(n == 1 || n == 0) {
          return 1;
    }
        int fact = printFactorial(n-1);
