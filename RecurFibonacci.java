@@ -2,10 +2,15 @@ public class RecurFibonacci {
     
    public static int printFibo(int n)
    {
-       int a,b;
-       int fibo_c = a + b ;
-       a = b;
-       b = fibo_c;
+       int fibo = printFibo(n + 1) 
+       {
+          int a,b,c;
+          c = a+b;
+          a = b;
+          b = c;
+          
+
+       }
 
    }
 
