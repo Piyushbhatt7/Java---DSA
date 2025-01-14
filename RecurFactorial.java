@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class RecurFactorial {
     
 
@@ -16,6 +19,7 @@ public class RecurFactorial {
         
         int n = 5;
         System.out.print("Enter any number: ");
+        Scanner sc = new Scanner(System.in);
         int ans = printFactorial(n);
         System.out.print(ans);
 
