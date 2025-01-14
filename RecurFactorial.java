@@ -20,6 +20,7 @@ public class RecurFactorial {
         int n = 5;
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
         int ans = printFactorial(n);
         System.out.print(ans);
 
