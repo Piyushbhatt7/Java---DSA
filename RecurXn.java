@@ -9,7 +9,7 @@ public class RecurXn {
         return 0;
     }
 
-    
+
     if(x == 0) 
     {
         return 0;
@@ -23,5 +23,9 @@ public class RecurXn {
 
     public static void main(String[] args) {
         
+        int x = 2;
+        int n = 5;
+        int ans = calculatePower(x, n);
+        System.out.println(ans);
     }
 }
