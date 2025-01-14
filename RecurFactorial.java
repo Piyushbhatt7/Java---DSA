@@ -17,7 +17,7 @@ public class RecurFactorial {
     public static void main(String[] args) {
         
         
-        int n = 5;
+        int n;
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
