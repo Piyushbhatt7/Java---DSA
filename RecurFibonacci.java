@@ -1,15 +1,12 @@
 public class RecurFibonacci {
     
-   public static int printFibo(int n)
+   public static void printFibo(int n)
    {
-       int fibo = printFibo(n + 1) 
+       int fibo = printFibo(int a, int b, int c) 
        {
-          int a,b,c;
-          c = a+b;
-          a = b;
-          b = c;
-          return c;
-
+             
+          
+   
        }
 
    }
