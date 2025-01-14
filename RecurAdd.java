@@ -6,15 +6,15 @@ public class RecurAdd {
         {
             return;
         }
-            System.out.print(n);
-            System.out.println(n+1);
+            System.out.println(n);
+            printAdd(n+1);
     }
 
 
 
     public static void main(String[] args) {
         int n = 1;
-        System.out.println(n);
+        printAdd(n);
 
     }
 }
