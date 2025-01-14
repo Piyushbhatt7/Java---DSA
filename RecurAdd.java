@@ -1,13 +1,20 @@
+
+import java.util.Scanner;
+
 public class RecurAdd {
     
     public static void printAdd(int n)
     {
-        if(n == 6)
+
+        int
+       
+        if(n == inp)
         {
             return;
         }
-            System.out.println(n);
+            System.out.println(inp);
             printAdd(n+1);
+            
     }
 
 
@@ -15,6 +22,7 @@ public class RecurAdd {
     public static void main(String[] args) {
         int n = 1;
         printAdd(n);
+        
 
     }
 }
