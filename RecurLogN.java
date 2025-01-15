@@ -21,6 +21,10 @@ public class RecurLogN {
        {
          return  calculatePower(x, n/2) * calculatePower(x, n/2);
        }
+       else{
+
+        return calculatePower(x, n/2) 
+       }
     }
 
 
