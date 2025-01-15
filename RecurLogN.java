@@ -19,7 +19,7 @@ public class RecurLogN {
 
        if(n%2==0)
        {
-          calculatePower(x, n/2) * calculatePower(x, n)
+          calculatePower(x, n/2) * calculatePower(x, n/2);
        }
     }
 
