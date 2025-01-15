@@ -15,6 +15,12 @@ public class RecurLogN {
          return 0;
      }
         
+       // if  n is even
+
+       if(n%2==0)
+       {
+        
+       }
     }
 
 
