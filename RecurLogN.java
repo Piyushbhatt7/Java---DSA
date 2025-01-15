@@ -23,7 +23,7 @@ public class RecurLogN {
        }
        else{
 
-        return calculatePower(x, n/2) * calculatePower(x, n/2)
+        return calculatePower(x, n/2) * calculatePower(x, n/2) * x;
        }
     }
 
