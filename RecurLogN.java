@@ -21,7 +21,7 @@ public class RecurLogN {
        {
          return  calculatePower(x, n/2) * calculatePower(x, n/2);
        }
-       else{
+       else{ // x is odd
 
         return calculatePower(x, n/2) * calculatePower(x, n/2) * x;
        }
