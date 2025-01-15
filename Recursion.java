@@ -2,7 +2,7 @@ public class Recursion {
     
     public static void printNum(int n){
 
-        if(n == 6) {
+        if(n == 6) { 
             return;
         }
         System.out.println(n);
