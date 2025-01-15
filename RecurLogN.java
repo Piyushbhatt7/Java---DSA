@@ -14,9 +14,7 @@ public class RecurLogN {
      {
          return 0;
      }
-        int xPower = calculatePower(x, n-1);
-        int xPow = x * xPower;
-        return xPow;
+        
     }
 
 
