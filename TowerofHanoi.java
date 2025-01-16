@@ -4,19 +4,19 @@ public class TowerofHanoi {
     {   
     
         if(n == 1) {
-            System.out.print("transfer disk " + n + " from " + src + " to " + dest);
+            System.out.print(" transfer disk " + n + " from " + src + " to " + dest);
             return;
         }
 
         TowerofHanoi(n-1, src, dest, helper);
-        System.out.print("transfer disk " + n + " from " + src + " to " + dest);
-        TowerofHanoi(-1, helper, src, dest);
+        System.out.print(" transfer disk " + n + " from " + src + " to " + dest);
+        TowerofHanoi(n-1, helper, src, dest);
     }
     
 
     public static void main(String[] args) {
         
-        int n = 1;
+        int n = 2;
         TowerofHanoi(n, "S", "H", "D");
     }
 }
