@@ -2,7 +2,7 @@ public class TowerofHanoi {
     
     public static void TowerofHanoi(int n, String src, String helper, String dest)
     {
-        TowerofHanoi(n-1, src, helper, dest);
+        TowerofHanoi(n-1, src, dest, helper);
     }
     
 
