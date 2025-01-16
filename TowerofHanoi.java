@@ -4,12 +4,12 @@ public class TowerofHanoi {
     {   
     
         if(n == 1) {
-            System.out.print(" transfer disk " + n + " from " + src + " to " + dest);
+            System.out.println(" transfer disk " + n + " from " + src + " to " + dest);
             return;
         }
 
         TowerofHanoi(n-1, src, dest, helper);
-        System.out.print(" transfer disk " + n + " from " + src + " to " + dest);
+        System.out.println(" transfer disk " + n + " from " + src + " to " + dest);
         TowerofHanoi(n-1, helper, src, dest);
     }
     
