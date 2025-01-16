@@ -4,6 +4,7 @@ public class TowerofHanoi {
     {
         TowerofHanoi(n-1, src, dest, helper);
         System.out.println("transfer disk " + n + " from " + src + " to " + dest);
+        TowerofHanoi(-1, helper, src, dest);
     }
     
 
