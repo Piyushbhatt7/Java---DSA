@@ -7,7 +7,7 @@ public class SwitchCal {
         
         double num1, num2, sum;
         char operat;
-        System.out.print("Enter number1: ");
+        System.out.print("Enter number1: ");  
         Scanner sc = new Scanner(System.in);
         num1 = sc.nextDouble();
         System.out.print("Enter number2: ");
