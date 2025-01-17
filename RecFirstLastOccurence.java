@@ -10,6 +10,7 @@ public class RecFirstLastOccurence {
     {
         System.out.println(first);
         System.out.println(last);
+        return;
     }
 
 
