@@ -32,8 +32,8 @@ public class RecFirstLastOccurence {
 
     public static void main(String[] args) {
         
-        String str = "abaacda";
-        findOccurance(str, first, element);
+        String str = "abaacdafaah";
+        findOccurance(str, 0, 'a');
 
     }
 }
