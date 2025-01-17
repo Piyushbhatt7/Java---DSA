@@ -16,6 +16,8 @@ public class RecFirstLastOccurence {
             last = idx;
         }  
      }
+
+     findOccurance(str, idx+1, element);
    }
 
 
