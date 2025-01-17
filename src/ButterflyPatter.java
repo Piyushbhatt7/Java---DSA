@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class ButterflyPatter {
-    
+public class ButterflyPatter {  
     public static void main(String[] args) {
         
         int i,n,j;
