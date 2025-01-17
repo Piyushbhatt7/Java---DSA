@@ -8,7 +8,10 @@ public class RecFirstLastOccurence {
      char currChar = str.charAt(idx);
      if(currChar == element)
      {
-        
+        if(first == -1)
+        {
+            first = idx;
+        }  
      }
    }
 
