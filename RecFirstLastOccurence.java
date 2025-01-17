@@ -8,7 +8,8 @@ public class RecFirstLastOccurence {
 
     if(idx == str.length())
     {
-        
+        System.out.println(first);
+        System.out.println(last);
     }
 
 
