@@ -10,6 +10,15 @@ public class PrimeBelow {
             for(int loop=2; loop<=i; loop++)
             {
                 if((i % loop) == 0 && loop!=i)
+                {
+                    primev = 0;
+                }
+            }
+
+            if(primev != 0)
+            {
+                System.out.println(i + " is a prime number");
+                i++;
             }
         }
     }
