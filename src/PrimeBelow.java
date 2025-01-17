@@ -19,6 +19,7 @@ public class PrimeBelow {
                 System.out.println(i + " is a prime number");
                 i++;
             }
+           
             else { 
                 i++;
             } 
