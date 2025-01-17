@@ -22,7 +22,7 @@ public class PrimeBelow {
             }
             else { 
                 i++;
-            }
+            } 
         }
     }
 }
