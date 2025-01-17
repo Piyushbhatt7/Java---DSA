@@ -4,7 +4,7 @@ public class RecuerStringReverse {
     {
         if(ind == 0)
         {
-            
+            System.out.println(str.charAt(ind));
         }
         System.out.println(str.charAt(ind));
         printReverse(str, ind-1);
