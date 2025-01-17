@@ -6,7 +6,12 @@ public class RecFirstLastOccurence {
    public static void findOccurance(String str, int idx, char element)
    {
 
-    if(ind == str.length())
+    if(idx == str.length())
+    {
+        
+    }
+
+
      char currChar = str.charAt(idx);
      if(currChar == element)
      {
