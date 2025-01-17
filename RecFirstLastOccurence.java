@@ -11,6 +11,9 @@ public class RecFirstLastOccurence {
         if(first == -1)
         {
             first = idx;
+        }
+        else{
+            last = idx;
         }  
      }
    }
