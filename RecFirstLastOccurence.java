@@ -32,7 +32,7 @@ public class RecFirstLastOccurence {
 
     public static void main(String[] args) {
         
-        String str = "abaacdafaah";
+        String str = "abaacdaefaah";
         findOccurance(str, 0, 'a');
 
     }
