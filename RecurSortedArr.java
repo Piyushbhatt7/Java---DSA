@@ -2,7 +2,7 @@ public class RecurSortedArr {
     
     public static boolean isSoerted(int arr[], int idx)
     {
-        if(arr)
+        if(arr[idx])
     }
 
 
