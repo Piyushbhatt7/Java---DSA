@@ -1,8 +1,6 @@
 public class RecurMoveX {
-    
 
-    // Moving all x in the end "axbcxxd"
-     
+    // Moving all x in the end "axbcxxd"  
     public static  void moveAllX(String str, int idx, int count, String newString)
     {   
     
@@ -11,7 +9,7 @@ public class RecurMoveX {
             for(int i=0; i<count; i++)
             {
                 newString += 'x';
-                
+
             }
             System.out.println(newString);
             return;
