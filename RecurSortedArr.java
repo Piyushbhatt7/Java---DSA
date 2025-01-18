@@ -9,7 +9,7 @@ public class RecurSortedArr {
 
         if(arr[idx] < arr[idx+1]) {
             // array is sorted till now
-            isSoerted(arr, idx+1);
+            return isSoerted(arr, idx+1);
 
         }
 
