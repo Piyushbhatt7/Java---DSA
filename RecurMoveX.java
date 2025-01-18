@@ -9,6 +9,7 @@ public class RecurMoveX {
         if(idx == str.length())
         {
             System.out.println(newString);
+            return;
         }
 
         char currChar = str.charAt(idx);
