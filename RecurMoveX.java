@@ -5,7 +5,11 @@ public class RecurMoveX {
      
     public static  void moveAllX(String str, int idx, int count, String newString)
     {
-        
+        char currChar = str.charAt(idx);
+        if(currChar == 'x')
+        {
+            
+        }
     }
 
     public static void main(String[] args) {
