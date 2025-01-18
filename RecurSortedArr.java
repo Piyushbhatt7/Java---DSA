@@ -4,7 +4,7 @@ public class RecurSortedArr {
     {   
         if(idx == arr.length-1)
         {
-            
+            return true;
         }
 
         if(arr[idx] < arr[idx+1]) {
