@@ -11,6 +11,10 @@ public class RecurMoveX {
             count ++;
             moveAllX(str, idx+1, count, newString);
         }
+        else{
+
+            newString += currChar;
+        }
     }
 
     public static void main(String[] args) {
