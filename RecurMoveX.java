@@ -13,7 +13,7 @@ public class RecurMoveX {
         }
         else{
 
-            newString += currChar;
+            newString += currChar;// newstring = new string + currchar
         }
     }
 
