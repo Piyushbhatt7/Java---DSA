@@ -14,6 +14,7 @@ public class RecurMoveX {
         else{
 
             newString += currChar;// newstring = new string + currchar
+            moveAllX(str, idx+1, count, newString);
         }
     }
 
