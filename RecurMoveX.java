@@ -4,7 +4,13 @@ public class RecurMoveX {
     // Moving all x in the end "axbcxxd"
      
     public static  void moveAllX(String str, int idx, int count, String newString)
-    {
+    {   
+    
+        if(idx == str.length())
+        {
+            System.out.println(newString);
+        }
+
         char currChar = str.charAt(idx);
         if(currChar == 'x')
         {
