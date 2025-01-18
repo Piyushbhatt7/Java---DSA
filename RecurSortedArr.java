@@ -9,7 +9,7 @@ public class RecurSortedArr {
         }
 
         else {
-            
+            return false;
         }
     }
 
