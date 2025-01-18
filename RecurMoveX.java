@@ -8,7 +8,8 @@ public class RecurMoveX {
         char currChar = str.charAt(idx);
         if(currChar == 'x')
         {
-            
+            count ++;
+            moveAllX(str, idx+1, count, newString);
         }
     }
 
