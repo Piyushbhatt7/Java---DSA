@@ -8,6 +8,11 @@ public class RecurMoveX {
     
         if(idx == str.length())
         {
+            for(int i=0; i<count; i++)
+            {
+                newString += 'x';
+                
+            }
             System.out.println(newString);
             return;
         }
