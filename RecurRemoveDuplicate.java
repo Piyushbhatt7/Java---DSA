@@ -9,6 +9,7 @@ public class RecurRemoveDuplicate {
         char currchar = str.charAt(idx);
         if(map[currchar - 'a'] == true) {
              
+            removeDuplicates(str, idx+1, newString);
 
         }
      }
