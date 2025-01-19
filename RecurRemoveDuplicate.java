@@ -7,7 +7,7 @@ public class RecurRemoveDuplicate {
      public static void removeDuplicates(String str, int idx) {
 
         char currchar = str.charAt(idx);
-        
+        if(map[currchar - 'a'] == true)
      }
 
 
