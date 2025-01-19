@@ -30,5 +30,6 @@ public class RecurRemoveDuplicate {
     public static void main(String[] args) {
         
         String str = "abbccda";
+        removeDuplicates(str, 0, "");
     }
 }
