@@ -5,7 +5,8 @@ public class RecurRemoveDuplicate {
      public static boolean [] map = new boolean[26];
 
      public static void removeDuplicates(String str, int idx, String newString) {
-
+        
+        if(idx == str.length())
         char currchar = str.charAt(idx);
         if(map[currchar - 'a'] == true) {
              
