@@ -10,7 +10,12 @@ public class RecurRemoveDuplicate {
         if(map[currchar - 'a'] == true) {
              
             removeDuplicates(str, idx+1, newString);
+            
+        }
+        else{
 
+            newString += currchar;
+            map[currchar - 'a'] = true;
         }
      }
 
