@@ -16,6 +16,7 @@ public class RecurRemoveDuplicate {
 
             newString += currchar;
             map[currchar - 'a'] = true;
+            removeDuplicates(str, idx+1, newString);
         }
      }
 
