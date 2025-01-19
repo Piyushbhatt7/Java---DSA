@@ -8,7 +8,8 @@ public class RecurRemoveDuplicate {
         
         if(idx == str.length()) 
         {
-            
+            System.out.println(newString);
+            return;
         }
         char currchar = str.charAt(idx);
         if(map[currchar - 'a'] == true) {
