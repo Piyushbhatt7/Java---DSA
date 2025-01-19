@@ -29,5 +29,6 @@ public class RecurRemoveDuplicate {
 
     public static void main(String[] args) {
         
+        String str = "abbccda";
     }
 }
