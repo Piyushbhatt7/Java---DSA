@@ -1,6 +1,6 @@
 public class RecurSequence {
      
-    k nm a b c d e f
+    k nm a b c d
 
     public static void main(String[] args) {
         
