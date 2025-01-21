@@ -9,6 +9,7 @@ public static void subsequences(String str, int idx, String newString) {
     subsequences(str, idx+1, newString+currChar);
 
     // or not to be
+    subsequences(str, idx+1, newString);
 }
 
 
