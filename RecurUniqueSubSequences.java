@@ -4,7 +4,7 @@ public class RecurUniqueSubSequences {
         
         if( idx == str.length())
         {
-            System.out.println(newString);
+            System.err.println(newString);
             return;
         }
 
