@@ -7,6 +7,17 @@ public class RecurUniqueSubSequences {
         
         if( idx == str.length())
         {
+
+            if(set.contains(newString))
+            {
+                return;
+            }
+
+            else{
+                System.out.println(newString);
+                set.add(newString);
+                return;
+            }
             System.err.println(newString);
             return;
         }
