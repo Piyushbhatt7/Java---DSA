@@ -9,9 +9,10 @@ public class RecurUniqueSubSequences {
         }
 
         char currChar = str.charAt(idx);
+
         UniqueSequence(str, idx+1, newString + currChar);
 
-        UniqueSequence(str, idx, newString);
+        UniqueSequence(str, idx+1, newString);
     }
 
 
