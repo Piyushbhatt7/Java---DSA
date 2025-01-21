@@ -18,8 +18,7 @@ public class RecurUniqueSubSequences {
                 set.add(newString);
                 return;
             }
-            System.err.println(newString);
-            return;
+            
         }
 
         char currChar = str.charAt(idx);
