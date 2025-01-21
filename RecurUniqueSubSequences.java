@@ -23,9 +23,9 @@ public class RecurUniqueSubSequences {
 
         char currChar = str.charAt(idx);
 
-        UniqueSequence(str, idx+1, newString + currChar);
+        UniqueSequence(str, idx+1, newString + currChar, set);
 
-        UniqueSequence(str, idx+1, newString);
+        UniqueSequence(str, idx+1, newString, set);
     }
 
 
@@ -33,6 +33,6 @@ public class RecurUniqueSubSequences {
         
         String str = "abc";
         HashSet<String> set = new HashSet<>();
-        UniqueSequence(str, 0, "");
+        UniqueSequence(str, 0, "", set);
     }
 }
