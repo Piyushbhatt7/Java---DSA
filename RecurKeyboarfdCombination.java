@@ -9,7 +9,7 @@ public class RecurKeyboarfdCombination {
 
        for(int i=0; i<=mapping.length(); i++)
        {
-        printCombinattions(str, idx+1, combination.charAt(i));
+        printCombinattions(str, idx+1, combination + mapping.charAt(i));
        }
    }
 
