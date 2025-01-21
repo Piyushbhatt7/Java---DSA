@@ -3,7 +3,11 @@ public class RecurSequence {
 
 public static void subsequences(String str, int idx, String newString) {
 
-
+    if(idx == str.length())
+    {
+        System.out.println(newString);
+        return;
+    }
     char currChar = str.charAt(idx);
     // to be
     subsequences(str, idx+1, newString+currChar);
