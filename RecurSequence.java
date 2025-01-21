@@ -1,7 +1,9 @@
 public class RecurSequence {
      
 
-public static void subsequences()
+public static void subsequences(String str, int idx, String newString) {
+    
+}
 
 
 
