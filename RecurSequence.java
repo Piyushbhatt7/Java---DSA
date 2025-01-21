@@ -20,7 +20,8 @@ public static void subsequences(String str, int idx, String newString) {
 
     public static void main(String[] args) {
 
-        String str = 
+        String str = "abc";
+        subsequences(str, 0, "");
         
     } 
 }
