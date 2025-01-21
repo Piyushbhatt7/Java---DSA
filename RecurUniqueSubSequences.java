@@ -1,3 +1,6 @@
+
+import java.util.HashSet;
+
 public class RecurUniqueSubSequences {
    
     public static void UniqueSequence(String str, int idx, String newString) {
@@ -19,6 +22,7 @@ public class RecurUniqueSubSequences {
     public static void main(String[] args) {
         
         String str = "abc";
+        HashSet<String> set = new HashSet<>();
         UniqueSequence(str, 0, "");
     }
 }
