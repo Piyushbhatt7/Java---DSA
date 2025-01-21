@@ -5,6 +5,7 @@ public class RecurUniqueSubSequences {
         if( idx == str.length())
         {
             System.out.println(newString);
+            return;
         }
 
         char currChar = str.charAt(idx);
