@@ -9,12 +9,13 @@ public class RecurKeyboarfdCombination {
         System.out.println(combination);
         return;
     }
+
        char currchar = str.charAt(idx);
        String mapping = keypad[currchar - '0'];
 
-       for(int i=0; i<=mapping.length(); i++)
+       for(int i=0; i<mapping.length(); i++)
        {
-        printCombinattions(str, idx+1, combination + mapping.charAt(i));
+          printCombinattions(str, idx+1, combination + mapping.charAt(i));
        }
    }
 
@@ -22,6 +23,7 @@ public class RecurKeyboarfdCombination {
 
     public static void main(String args[])
     {
-
+        String str = "23";
+        printCombinattions(str, 0, "");
     }
 }
