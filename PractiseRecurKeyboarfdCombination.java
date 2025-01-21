@@ -4,6 +4,11 @@ public class PractiseRecurKeyboarfdCombination {
 
     public static void printCombination(String str, int idx, String combination)
     {
+
+        if(idx == str.length())
+        {
+            
+        }
         char currChar = str.charAt(idx);
         String mapping = keypad[currChar - '0'];
 
