@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 public class RecurUniqueSubSequences {
    
-    public static void UniqueSequence(String str, int idx, String newString) {
+    public static void UniqueSequence(String str, int idx, String newString, HashSet<String> set) {
         
         if( idx == str.length())
         {
