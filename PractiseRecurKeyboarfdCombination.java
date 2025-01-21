@@ -9,7 +9,7 @@ public class PractiseRecurKeyboarfdCombination {
 
         for(int i=0; i<combination.length(); i++)
         {
-            
+            printCombination(str, idx+1, combination + mapping.charAt(i));
         }
     }
 
