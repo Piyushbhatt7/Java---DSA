@@ -6,6 +6,11 @@ public class RecurKeyboarfdCombination {
       
        char currchar = str.charAt(idx);
        String mapping = keypad[currchar - '0'];
+
+       for(int i=0; i<=mapping.length(); i++)
+       {
+        printCombinattions(str, idx+1, combination.charAt(i));
+       }
    }
 
 
