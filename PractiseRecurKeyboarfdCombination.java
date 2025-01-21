@@ -13,7 +13,7 @@ public class PractiseRecurKeyboarfdCombination {
         char currChar = str.charAt(idx);
         String mapping = keypad[currChar - '0'];
 
-        for(int i=0; i<combination.length(); i++)
+        for(int i=0; i<mapping.length(); i++)
         {
             printCombination(str, idx+1, combination + mapping.charAt(i));
         }
