@@ -31,7 +31,7 @@ public class RecurUniqueSubSequences {
 
     public static void main(String[] args) {
         
-        String str = "abc";
+        String str = "abs";
         HashSet<String> set = new HashSet<>();
         UniqueSequence(str, 0, "", set);
     }
