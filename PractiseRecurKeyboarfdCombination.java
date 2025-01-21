@@ -7,7 +7,8 @@ public class PractiseRecurKeyboarfdCombination {
 
         if(idx == str.length())
         {
-            
+            System.out.println(combination);
+            return;
         }
         char currChar = str.charAt(idx);
         String mapping = keypad[currChar - '0'];
