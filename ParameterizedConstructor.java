@@ -11,6 +11,10 @@ class ParaConst
 
     }
 
+     ParaConst(String lastname)
+     {
+        String lname = lastname;
+     }
 
 }
 
