@@ -33,7 +33,7 @@ public class MethodOverloading {
         obj.Demo(10, 30);
         double result = obj.Demo(53.45);
 
-        System.out.println(obj.Demo(53.45) + result);
+        System.out.println("Result: " + obj.Demo(53.45) + result);
     }
     
     
