@@ -3,6 +3,7 @@ class ParaConst
 {
     String name;
     int id;
+    String lastname;
 
     ParaConst(String name, int id)
     {
@@ -13,7 +14,7 @@ class ParaConst
 
      ParaConst(String lastname)
      {
-        String lname = lastname;
+        this.lastname = lastname;
      }
 
 }
@@ -27,6 +28,6 @@ public class ParameterizedConstructor {
         ParaConst obj = new ParaConst("Amit", 2333);
         ParaConst obj1 = new ParaConst("Kumar");
         System.out.println(obj.name + obj.id);
-        System.out.println(obj1.lastname);
+        System.out.println(obj1.name);
     }
 }
