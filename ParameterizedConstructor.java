@@ -23,4 +23,6 @@ class ParaConst
 
 public class ParameterizedConstructor {
     
+    ParaConst obj = new ParaConst("Amit", 2333);
+    ParaConst obj1 = new ParaConst("Kumar");
 }
