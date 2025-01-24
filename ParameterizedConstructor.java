@@ -5,6 +5,8 @@ class ParaConst
 
     ParaConst(int name, int id)
     {
+        this.name = name;
+        this.id = id;
         
     }
 }
