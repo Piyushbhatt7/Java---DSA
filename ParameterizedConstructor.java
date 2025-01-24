@@ -25,4 +25,6 @@ public class ParameterizedConstructor {
     
     ParaConst obj = new ParaConst("Amit", 2333);
     ParaConst obj1 = new ParaConst("Kumar");
+    System.out.println(obj.name + obj.id);
+    System.out.println(obj1.lname);
 }
