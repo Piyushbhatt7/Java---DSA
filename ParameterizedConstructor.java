@@ -1,14 +1,17 @@
 class ParaConst
 
 {
-    int name, int id;
+    String name;
+    int id;
 
-    ParaConst(int name, int id)
+    ParaConst(String name, int id)
     {
         this.name = name;
         this.id = id;
-        
+
     }
+
+
 }
 
 
