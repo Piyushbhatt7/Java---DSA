@@ -6,6 +6,7 @@ public class PermutationString {
         {
 
             char currChar = str.charAt(i);
+            // abc -> "bc" -> "c"
             String newStr = str.
         }
     }
