@@ -8,7 +8,7 @@ public class PermutationString {
             System.out.println(permu);
             return;
         }
-g rg
+g rgg
 vf tt rryytt
         for(int i=0; i<str.length(); i++)
         {
