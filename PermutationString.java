@@ -1,7 +1,9 @@
 public class PermutationString {
     
     public static void printPermutation(String str, String permu)
-    {
+    {   
+
+        if(str.length() == 0)
         for(int i=0; i<str.length(); i++)
         {
 
