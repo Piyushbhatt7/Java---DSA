@@ -6,7 +6,10 @@ public class PermutationString {
         if(str.length() == 0)
         {
             System.out.println(permu);
+            return;
         }
+
+        
         for(int i=0; i<str.length(); i++)
         {
 
