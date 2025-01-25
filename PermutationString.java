@@ -11,7 +11,6 @@ public class PermutationString {
 g rggbghrd
 vf tt rryytttrtrtdbhhngrtwedtb
 
-
         for(int i=0; i<str.length(); i++)
         {
 
