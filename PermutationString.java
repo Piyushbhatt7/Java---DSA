@@ -7,7 +7,7 @@ public class PermutationString {
 
             char currChar = str.charAt(i);
             // abc -> "bc" -> 
-            String newStr = str.
+            String newStr = str.substring(0, i) + str.substring(i+1)
         }
     }
     
