@@ -9,7 +9,7 @@ public class PermutationString {
             return;
         }
 g rggbghrd
-vf tt rryytttrtrtdbhhngrtwedtbffdgtr
+vf tt rryytttrtrtdbhhngrtwedtbffdgtrr
 
         for(int i=0; i<str.length(); i++)
         {
