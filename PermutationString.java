@@ -4,6 +4,9 @@ public class PermutationString {
     {   
 
         if(str.length() == 0)
+        {
+            System.out.println(permu);
+        }
         for(int i=0; i<str.length(); i++)
         {
 
