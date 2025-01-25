@@ -8,7 +8,7 @@ public class PermutationString {
             char currChar = str.charAt(i);
             // abc -> "bc" -> 
             String newStr = str.substring(0, i) + str.substring(i+1);
-            
+            printPermutation(newStr, permu + currChar);
         }
     }
     
