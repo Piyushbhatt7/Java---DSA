@@ -9,7 +9,7 @@ public class PermutationString {
             return;
         }
 
-        
+
         for(int i=0; i<str.length(); i++)
         {
 
@@ -22,6 +22,8 @@ public class PermutationString {
     
     
     public static void main(String[] args) {
+        
+        String str = "abc";
         
     }
 }
