@@ -27,7 +27,7 @@ public class PlaceTile {
 
     public static void main(String[] args) {
         
-      int n ,m;
-      
+      int n = 3 ,m = 3;
+
     }
 }
