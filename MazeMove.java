@@ -8,7 +8,7 @@ public class MazeMove {
             return 0;
          }
 
-         if(1 == n-1 && j == m-1)
+         if(i == n-1 && j == m-1)
        {
        
         return 1;
