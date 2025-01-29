@@ -9,9 +9,10 @@ public class MazeMove {
          }
 
          if(1 == n-1 && j == m-1)
-     {
+       {
+       
         return 1;
-     }
+        }
             // downwards
             int downpath = countPaths(i+1, j, n, m);
 
