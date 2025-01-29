@@ -3,6 +3,8 @@ public class PlaceTile {
     
   public static int placeTiles( int n, int m)
   {
+
+    if(n == m)
     // vertically 
     int verticalPlacments = placeTiles(n-m, m);
 
