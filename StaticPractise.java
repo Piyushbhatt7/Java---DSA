@@ -15,3 +15,4 @@ public class StaticPractise {
         System.out.println("b = " + StaticPractise.b);
     }
 }
+  
