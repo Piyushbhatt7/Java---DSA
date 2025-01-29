@@ -28,6 +28,6 @@ public class PlaceTile {
     public static void main(String[] args) {
         
       int n = 3 ,m = 3;
-
+      placeTiles(n, m)
     }
 }
