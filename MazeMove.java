@@ -1,6 +1,6 @@
 public class MazeMove {
 
-           public static  int countPaths(int i, int j, int n, int m)
+         public static  int countPaths(int i, int j, int n, int m)
          {
             
             if(i == n || j == m)
