@@ -4,11 +4,11 @@ public class MazeMove {
          {
             
             if(i == n || j == m)
-     {
-        return 0;
-     }
+         {
+            return 0;
+         }
 
-     if(1 == n-1 && j == m-1)
+         if(1 == n-1 && j == m-1)
      {
         return 1;
      }
