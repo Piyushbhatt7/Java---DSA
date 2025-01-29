@@ -4,7 +4,9 @@ public class PlaceTile {
   public static int placeTiles(String int n, int m)
   {
     // vertically 
-    int verticalPlacment
+    int verticalPlacments = placeTiles(n-m, m);
+
+    
   }
 
 
