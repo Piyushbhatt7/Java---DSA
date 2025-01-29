@@ -25,6 +25,6 @@ public class MazeMove {
         
         int n=3, m = 3;
 
-        int totalpaths = countp
+        int totalpaths = countPaths(0, 0, n, m)
     }
 }
