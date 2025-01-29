@@ -6,7 +6,9 @@ public class PlaceTile {
     // vertically 
     int verticalPlacments = placeTiles(n-m, m);
 
-    
+    // horizontally
+
+    int horPlacement = placeTiles(n,m)
   }
 
 
