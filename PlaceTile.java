@@ -8,6 +8,11 @@ public class PlaceTile {
     {
       return 2;
     }
+
+    if(n < m)
+    {
+      
+    }
     // vertically 
     int verticalPlacments = placeTiles(n-m, m);
 
