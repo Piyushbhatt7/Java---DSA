@@ -11,7 +11,7 @@ public class PlaceTile {
 
     if(n < m)
     {
-      
+       return 1;
     }
     // vertically 
     int verticalPlacments = placeTiles(n-m, m);
