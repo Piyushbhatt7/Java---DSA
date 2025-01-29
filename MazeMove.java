@@ -26,6 +26,6 @@ public class MazeMove {
         int n=3, m = 3;
 
         int totalpaths = countPaths(0, 0, n, m);
-        System.out.println(tota);
+        System.out.println(totalpaths);
     }
 }
