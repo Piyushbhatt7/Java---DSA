@@ -4,20 +4,27 @@ class Haseena {
 
     Haseena(int num1, int num2)
     {
-        num1 = a;
-        num2 = b;
+        a = num1;
+        b = num2;
 
         c = num1 + num2;
         System.out.println(c);
     }
+
+    // Haseena()
+    // {
+    //     System.out.println("Program finished");
+    // }
 }
 
 
 
-public class Constructorloading {
+public class Constructorloading  extends Haseena{
     
     public static void main(String args[])
     {
-
+         Constructorloading obj = new Constructorloading();
+        // obj.Haseena();
+         
     }
 }
