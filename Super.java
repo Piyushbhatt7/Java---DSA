@@ -6,7 +6,14 @@ class Test{
     }
 }
 
+class Demo extends Test {
 
+    Demo()
+    {
+        super();
+        System.out.println("Demo constructor");
+    }
+}
 
 
 public class Super {
