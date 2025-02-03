@@ -19,7 +19,7 @@ class Haseena {
 
 
 
-public class Constructorloading  extends Haseena{
+public class Constructorloading {
 
     
     // public Constructorloading()
@@ -30,7 +30,9 @@ public class Constructorloading  extends Haseena{
     
     public static void main(String args[])
     {
-         Constructorloading obj = new Constructorloading();
+         Haseena obj = new Haseena();
+         Haseena obj1 = new Haseena(4,6);
+        
          
          
     }
