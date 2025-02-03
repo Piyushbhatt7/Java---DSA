@@ -6,7 +6,7 @@ interface A {
 
 interface B {
 
-     public void display();\
+     public void display();
 }
 
 
