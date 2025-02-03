@@ -1,6 +1,11 @@
 class A
 {
-    
+    void myclass()
+    {
+        int a,b;
+        int c = a + b;
+        System.out.println(c);
+    }
 }
 
 
