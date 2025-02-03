@@ -17,8 +17,11 @@ public class Overriding extends A{
     }
     
     public static void main(String args[])
-    {
-         A onj = new A();
+    {    
+        A obj = new A();
+         Overriding onj = new Overriding();
+         obj.fun();
          onj.fun();
+        
     }
 }
