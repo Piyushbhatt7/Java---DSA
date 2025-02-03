@@ -28,10 +28,7 @@ class B extends A{
             super.show();
             System.out.println("k: " + k);
         }
-    
 }
-
-
 
 public class MethodOverriding {
     
