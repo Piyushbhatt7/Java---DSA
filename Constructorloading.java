@@ -11,20 +11,27 @@ class Haseena {
         System.out.println(c);
     }
 
-    // Haseena()
-    // {
-    //     System.out.println("Program finished");
-    // }
+    Haseena()
+    {
+        System.out.println("Program finished");
+    }
 }
 
 
 
 public class Constructorloading  extends Haseena{
+
+    
+    // public Constructorloading()
+    // {
+    //    super(5,10);
+    //    new Haseena();
+    // }
     
     public static void main(String args[])
     {
          Constructorloading obj = new Constructorloading();
-        // obj.Haseena();
+         
          
     }
 }
