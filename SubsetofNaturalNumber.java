@@ -10,6 +10,7 @@ public class SubsetofNaturalNumber {
         findSubsets(n-1, subset);
 
         // no add
+        subset.remove(subset.size()-1);
         findSubsets(n-1, subset);
     }
     
