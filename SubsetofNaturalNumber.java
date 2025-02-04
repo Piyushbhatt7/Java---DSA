@@ -5,6 +5,11 @@ public class SubsetofNaturalNumber {
     public static void findSubsets(int n, ArrayList<Integer> subset)
     {
 
+        if(n == 0)
+        {
+            printSubset(subset);
+        }
+
         // add
         subset.add(n);
         findSubsets(n-1, subset);
