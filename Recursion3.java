@@ -5,6 +5,10 @@ public class Recursion3 {
         // single
         int ways1 = callGuests(n-1);
 
+        // duble
+
+        int ways2 = callGuests(n-2)
+
     }
     
     public static void main(String[] args) {
