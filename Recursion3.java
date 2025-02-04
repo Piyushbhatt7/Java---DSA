@@ -3,6 +3,10 @@ public class Recursion3 {
     public static int callGuests(int n)
     {
 
+        if(n == 1)
+        {
+            return 1;
+        }
         
         // single
         int ways1 = callGuests(n-1);
