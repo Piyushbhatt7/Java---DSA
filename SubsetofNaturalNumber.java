@@ -4,9 +4,9 @@ public class SubsetofNaturalNumber {
 
     public static void printSubset(ArrayList<Integer> subset)
     {
-        for(int i = 0; i<subset.size(); i++)
+        for(int i =- 0; i<subset.size(); i++)
         {
-            System.out.println(subset.get(1));
+            System.out.println(subset.get(i)+ "");
         }
         System.out.println();
     }
