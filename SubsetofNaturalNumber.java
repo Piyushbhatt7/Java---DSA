@@ -1,9 +1,17 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class SubsetofNaturalNumber {
 
     public static void findSubsets(int n, ArrayList<Integer> subset)
+    {
+
+        // add
+        subset.add(n);
+        findSubsets(n-1, subset);
+
+        // no add
+        findSubsets(n, subset);
+    }
     
     public static void main(String[] args) {
         
