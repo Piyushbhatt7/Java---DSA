@@ -33,5 +33,7 @@ public class SubsetofNaturalNumber {
         
         int n = 3;
         ArrayList<Integer> subset = new ArrayList<>();
+        //System.out.println();
+        findSubsets(n, subset);
     }
 }
