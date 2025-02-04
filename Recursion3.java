@@ -7,7 +7,7 @@ public class Recursion3 {
         {
             return 1;
         }
-        
+
         // single
         int ways1 = callGuests(n-1);
 
@@ -21,5 +21,7 @@ public class Recursion3 {
     
     public static void main(String[] args) {
         
+        int n = 4;
+        System.out.println(callGuests(n));
     }
 }
