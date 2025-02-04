@@ -7,7 +7,7 @@ public class Recursion3 {
 
         // duble
 
-        int ways2 = callGuests(n-2)
+        int ways2 = (n-1) * callGuests(n-2)
 
     }
     
