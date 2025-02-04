@@ -4,7 +4,7 @@ public class SubsetofNaturalNumber {
 
     public static void printSubset(ArrayList<Integer> subset)
     {
-        for(int 1 = 0; i<subset.size(); i++)
+        for(int i = 0; i<subset.size(); i++)
         {
             System.out.println(subset.get(1));
         }
