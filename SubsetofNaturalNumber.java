@@ -10,7 +10,7 @@ public class SubsetofNaturalNumber {
         findSubsets(n-1, subset);
 
         // no add
-        findSubsets(n, subset);
+        findSubsets(n-1, subset);
     }
     
     public static void main(String[] args) {
