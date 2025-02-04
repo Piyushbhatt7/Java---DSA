@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class SubsetofNaturalNumber {
 
-    public static 
+    public static void findSubsets(int n, ArrayList<Integer> subset)
     
     public static void main(String[] args) {
         
