@@ -6,8 +6,9 @@ public class SubsetofNaturalNumber {
     {
         for(int 1 = 0; i<subset.size(); i++)
         {
-            System.out.println();
+            System.out.println(subset.get(1));
         }
+        System.out.println();
     }
 
     public static void findSubsets(int n, ArrayList<Integer> subset)
