@@ -3,7 +3,7 @@ public class Recursion3 {
     public static int callGuests(int n)
     {
 
-        if(n == 1)
+        if(n <= 1)
         {
             return 1;
         }
