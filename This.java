@@ -9,7 +9,7 @@ class Ex {
 
     void display()
     {
-        show(name);
+        System.out.println(name);
     }
 }
 
