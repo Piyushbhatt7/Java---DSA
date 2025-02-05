@@ -2,7 +2,10 @@ class Ex {
 
     String name;
 
-    Student(String)
+    Student(String name)
+    {
+        this.name = name;
+    }
 }
 
 
