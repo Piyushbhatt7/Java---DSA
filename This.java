@@ -7,7 +7,10 @@ class Ex {
         this.name = name;
     }
 
-    
+    void display()
+    {
+        show(name);
+    }
 }
 
 
