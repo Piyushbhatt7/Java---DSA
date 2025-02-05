@@ -4,6 +4,11 @@ class Call {
     {
         System.out.println("Great");
     }
+
+    Call(int a)
+    {
+        System.out.println(a);
+    }
 }
 
 
