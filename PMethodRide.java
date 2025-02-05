@@ -21,5 +21,7 @@ public class PMethodRide {
         
         My ob = new My();
         You obj = new You();
+        ob.ride();
+        obj.ride();
     }
 }
