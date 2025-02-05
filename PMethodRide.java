@@ -6,7 +6,7 @@ class My {
     }
 }
 
-class You {
+class You extends  My{
 
     void ride()
     {

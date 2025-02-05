@@ -1,1 +1,1 @@
-n
+ My ob = new My();
