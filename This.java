@@ -18,5 +18,6 @@ public class This {
     
     public static void main(String[] args) {
         
+        Ex obj = new Ex("Piyush");
     }
 }
