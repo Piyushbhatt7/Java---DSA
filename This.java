@@ -1,9 +1,8 @@
 class Ex {
 
-    void emma()
-    {
-        System.out.println("Hello");
-    }
+    String name;
+
+    Student(String)
 }
 
 
