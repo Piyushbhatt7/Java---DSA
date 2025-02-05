@@ -1,8 +1,8 @@
 class My {
 
-    ride()
+   void ride()
     {
-        
+        System.out.println();
     }
 }
 
