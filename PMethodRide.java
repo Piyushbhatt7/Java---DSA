@@ -2,7 +2,7 @@ class My {
 
    void ride()
     {
-        System.out.println();
+        System.out.println("I am");
     }
 }
 
