@@ -2,7 +2,7 @@ class Constructor
 {
     Constructor()
     {
-        System.out.println("This is constructor");
+        System.out.println("constructor called");
     }
 }
 
