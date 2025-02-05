@@ -6,6 +6,14 @@ class My {
     }
 }
 
+class You {
+
+    void ride()
+    {
+        System.out.println("Ridding");
+    }
+}
+
 
 public class PMethodRide {
     
