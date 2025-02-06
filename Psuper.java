@@ -1,22 +1,4 @@
-class Parent {
-
-    int id;
-    void rollNo(int id)
-    {
-        this.id = id;
-    }
-}
-
-class Child {
-
-     String name;
-     void surName(String name)
-     {
-        this.name = name;
-        super(id);
-     }
-}
-
+class 
 
 public class PSuper {
     
