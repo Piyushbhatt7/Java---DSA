@@ -10,7 +10,17 @@ interface B {
 
 
 
-public class Interface {
+public class Interface implements  A, B{
+
+    my()
+    {
+        System.out.println("Hii");
+    }
+
+    my()
+    {
+
+    }
     
     public static void main(String[] args) {
         
