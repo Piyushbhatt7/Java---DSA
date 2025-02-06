@@ -10,7 +10,7 @@ class Parent {
 class Child {
 
      String name;
-     void surName(String name)
+     void surName(String name) : super(id)
      {
         this.name = name;
         
