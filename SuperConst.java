@@ -6,7 +6,7 @@ class Animal {
     }
 }
 
-class Dag extends Animal {
+class Dog extends Animal {
 
     Dog()
     {
@@ -21,5 +21,7 @@ public class SuperConst {
     
     public static void main(String[] args) {
         
+        Dog obj = new Dog();
+        //obj.
     }
 }
