@@ -12,6 +12,16 @@ class Parent {
     }
 }
 
+class Child extends Parent {
+
+    String name;
+
+    Child(int id, String name)
+    {
+        
+    }
+}
+
 public class PSuper {
     
     public static void main(String[] args) {
