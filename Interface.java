@@ -17,7 +17,7 @@ public class Interface implements  A, B{
         System.out.println("Hii");
     }
 
-    my()
+    me()
     {
 
     }
