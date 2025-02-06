@@ -10,7 +10,11 @@ class Parent {
 class Child {
 
      String name;
-     void surName()
+     void surName(String name)
+     {
+        this.name = name;
+        
+     }
 }
 
 
