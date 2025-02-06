@@ -5,6 +5,11 @@ class Parent {
     {
         this.id = id;
     }
+
+    void showId()
+    {
+        System.out.println("Id " + id);
+    }
 }
 
 public class PSuper {
