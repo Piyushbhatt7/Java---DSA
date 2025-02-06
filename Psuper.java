@@ -7,6 +7,11 @@ class Parent {
     }
 }
 
+class Child {
+
+    
+}
+
 
 public class PSuper {
     
