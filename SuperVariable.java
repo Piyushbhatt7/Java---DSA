@@ -7,7 +7,11 @@ class Var {
 class Vur extends Var {
     
     String name = "Bhatt";
-    System.out.println(super)
+    void my()
+    {
+        System.out.println(super.name);
+        System.out.println(name);
+    }
 }
 
 
