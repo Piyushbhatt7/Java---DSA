@@ -17,6 +17,9 @@ class Vur extends Var {
 
 public class SuperVariable {
     
-    Vur obj = new Vur();
+    public static void main(String[] args) {
+        Vur obj = new Vur();
     obj.my();
+    }
+    
 }
