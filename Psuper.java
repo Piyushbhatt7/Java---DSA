@@ -31,6 +31,6 @@ class Child extends Parent {
 public class PSuper {
     
     public static void main(String[] args) {
-        
+         Child c = new Child(101, "Piyush")
     }
 }
