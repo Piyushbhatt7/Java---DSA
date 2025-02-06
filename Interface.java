@@ -12,14 +12,14 @@ interface B {
 
 public class Interface implements  A, B{
 
-    my()
+   public void my()
     {
         System.out.println("Hii");
     }
 
-    me()
+   public void me()
     {
-
+        System.out.println("Byy");
     }
     
     public static void main(String[] args) {
