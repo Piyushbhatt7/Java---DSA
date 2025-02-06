@@ -9,7 +9,12 @@ abstract class Dog {
  
 }
 
+class Animal extends Dog {
 
+    void sound(){
+        System.out.println("Bark");
+    }
+}
 
 
 
