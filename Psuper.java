@@ -18,7 +18,8 @@ class Child extends Parent {
 
     Child(int id, String name)
     {
-        
+        super(id);
+        this.name = name;
     }
 }
 
