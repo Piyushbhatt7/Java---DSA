@@ -10,7 +10,7 @@ class Parent {
 class Child {
 
      String name;
-     void 
+     void surName()
 }
 
 
