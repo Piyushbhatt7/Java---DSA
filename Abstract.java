@@ -18,15 +18,11 @@ class Animal extends Dog {
 
 
 
-
-
-
-
-
-
 public class Abstract {
     
     public static void main(String[] args) {
-        
+        Animal obh = new Animal();
+        obh.sound();
+        obh.sleeep();
     }
 }
