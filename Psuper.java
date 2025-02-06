@@ -21,6 +21,11 @@ class Child extends Parent {
         super(id);
         this.name = name;
     }
+
+    void showDetails()
+    {
+        System.out.println("ID: " + id + ", Name: " + name);
+    }
 }
 
 public class PSuper {
