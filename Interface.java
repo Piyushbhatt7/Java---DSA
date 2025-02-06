@@ -3,7 +3,10 @@ interface A {
     void my();
 }
 
+interface B {
 
+    void me();
+}
 
 
 
