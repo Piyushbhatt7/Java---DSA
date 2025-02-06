@@ -24,5 +24,7 @@ public class Interface implements  A, B{
     
     public static void main(String[] args) {
         
+        Interface obj = new  Interface();
+        
     }
 }
