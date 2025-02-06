@@ -1,7 +1,7 @@
 class Parent {
 
     int id;
-    void name(int id)
+    void rollNo(int id)
     {
         this.id = id;
     }
@@ -9,7 +9,8 @@ class Parent {
 
 class Child {
 
-    
+     String name;
+     void 
 }
 
 
