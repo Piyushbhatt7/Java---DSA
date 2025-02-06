@@ -1,11 +1,13 @@
 class Var {
 
-    String name;
+    String name = "Piyush";
 
 }
 
 class Vur extends Var {
     
+    String name = "Bhatt";
+    System.out.println(super)
 }
 
 
