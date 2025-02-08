@@ -15,7 +15,7 @@ public class App {
         // int b = 5;
 
         // int ans = a*b / a-b;
-        // System.out.println(ans);             * / % > + -
+        // System.out.println(ans);            * / % > + -
 
         // int ans = (a*b) / (a-b);
         // System.out.println(ans);
