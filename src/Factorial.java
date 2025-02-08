@@ -2,25 +2,24 @@
 import java.util.Scanner;
 
 public class Factorial {
-    
-    public static int factNumber(int n){
 
+    public static int factNumber(int n) {
 
-        if(n<0){
+        if (n < 0) {
             System.out.println("Invalid number!");
             return -1;
         }
 
         int fact = 1;
 
-        for(int i = 1; i<=n; i++){
-            fact = fact*i;
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
         }
         return fact;
     }
 
     public static void main(String[] args) {
-        
+
         System.out.print("Enter any number: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
