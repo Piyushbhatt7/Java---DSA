@@ -4,7 +4,7 @@ public class BackTracking {
     {
         for(int i=0; i<str.length(); i++)
         {
-            
+            char currChar = str.charAt(i);
         }
     }
     
