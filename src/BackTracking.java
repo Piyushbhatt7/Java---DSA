@@ -5,6 +5,7 @@ public class BackTracking {
         for(int i=0; i<str.length(); i++)
         {
             char currChar = str.charAt(i);
+            char newStr = str.substring((0,i) + str.substring(i+1))
         }
     }
     
