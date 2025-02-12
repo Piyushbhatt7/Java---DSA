@@ -20,6 +20,7 @@ public class BackTracking {
     public static void main(String[] args) {
         
         String str = "ABC";
+        printPermutation(str, "", 0);
 
     }
 }
