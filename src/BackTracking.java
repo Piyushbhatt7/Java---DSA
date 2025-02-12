@@ -6,7 +6,8 @@ public class BackTracking {
         {
             char currChar = str.charAt(i);
             String newStr = str.substring(0,i) + str.substring(i+1);
-            printPermutation(newStr, perm, idx+1);
+            
+            printPermutation(newStr, perm + currChar, idx+1);
         }
     }
     
