@@ -4,7 +4,7 @@ public class BackTracking {
     {
         if(str.length() == 0)
         {
-            System.out.println(perm);
+            System.out.println(perm); 
             return;
         }
         
