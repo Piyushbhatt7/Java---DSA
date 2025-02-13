@@ -62,6 +62,12 @@ public class NQueen {
 
         // lower right
         for(int c = col; col<board.length && r<board.length; c++, r++ )
+        {
+            if(board[r][c] == 'Q')
+            {
+                return false;
+            }
+        }
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
