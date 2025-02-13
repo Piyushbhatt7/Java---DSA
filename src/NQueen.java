@@ -59,6 +59,9 @@ public class NQueen {
                 return false;
             }
         }
+
+        // lower right
+        for(int c = col; col<board.length && r<board.length; c++, r++ )
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
