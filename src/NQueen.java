@@ -41,7 +41,7 @@ public class NQueen {
         // upper right
 
         r = row;
-        for(int c = col; col<board.length && r>=0; r--, c++)
+        for(int c = col; c<board.length && r>=0; r--, c++)
         {
             if(board[r][c] == 'Q')
             {
