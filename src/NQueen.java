@@ -40,7 +40,11 @@ public class NQueen {
 
         // upper right
 
-        
+        r = row;
+        for(int c = col; c<board.length && r>=0; r--, c++)
+        {
+            
+        }
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
