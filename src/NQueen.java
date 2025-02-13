@@ -1,6 +1,6 @@
 public class NQueen {
 
-    public void helper()
+    public void helper(char [][])
     
     public List<List<String>> solveNQueen(int n)
     {
