@@ -84,6 +84,10 @@ public class NQueen {
             {
                 if(board[i][j] == 'Q')
                 {
+                    row += 'Q';
+
+                }
+                else {
                     
                 }
             }
