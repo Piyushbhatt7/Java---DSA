@@ -1,4 +1,9 @@
 public class NQueen {
+
+    public List<List<String>> solveNQueen(int n)
+    {
+        List<List<String>> allBoards
+    }
     
     public static void main(String[] args) {
         
