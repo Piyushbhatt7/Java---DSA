@@ -73,6 +73,9 @@ public class NQueen {
     }
 
     public void saveBoard(char [][] board,  List<List<String>> allBoards)
+    {
+        String row = "";
+    }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
     {
