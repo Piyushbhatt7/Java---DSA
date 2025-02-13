@@ -52,7 +52,7 @@ public class NQueen {
         // lower left
 
         r = row;
-        for(int c = col; col>=0 && r<board.length; r++, c--)
+        for(int c = col; c>=0 && r<board.length; r++, c--)
         {
             if(board[r][c] == 'Q')
             {
@@ -61,7 +61,7 @@ public class NQueen {
         }
 
         // lower right
-        for(int c = col; col<board.length && r<board.length; c++, r++ )
+        for(int c = col; c<board.length && r<board.length; c++, r++ )
         {
             if(board[r][c] == 'Q')
             {
