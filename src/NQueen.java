@@ -82,7 +82,10 @@ public class NQueen {
             row = "";
             for(int j=0; j<board[0].length; j++)
             {
-                
+                if(board[i][j] == 'Q')
+                {
+                    
+                }
             }
         }
     }
