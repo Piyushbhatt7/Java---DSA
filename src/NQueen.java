@@ -4,7 +4,10 @@ import java.util.List;
 
 public class NQueen {
 
-    public boolean isSafe(int row, int col)
+    public boolean isSafe(int row, int col, char [][] board)
+    {
+        
+    }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
     {
