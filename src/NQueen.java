@@ -12,6 +12,7 @@ public class NQueen {
             {
                 board[row][col] = 'Q';
                 helper(board, allBoards, col + 1);
+                board[row][col] = '.'
             }
         }
     }
