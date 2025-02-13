@@ -9,7 +9,8 @@ public class NQueen {
 
        if(col == board.length)
        {
-        saveBoard()
+        saveBoard(board, allBoards);
+        return;
        }
 
         for(int row = 0; row<board.length; row++)
