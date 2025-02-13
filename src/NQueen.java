@@ -6,7 +6,9 @@ public class NQueen {
 
     public boolean isSafe(int row, int col, char [][] board)
     {
-        
+        // horizontal check
+
+        for(int j=0; j<board.length; j++)
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
