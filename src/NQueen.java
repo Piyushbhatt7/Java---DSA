@@ -9,6 +9,12 @@ public class NQueen {
         // horizontal check
 
         for(int j=0; j<board.length; j++)
+        {
+            if(board[row][col] == 'Q')
+            {
+                return false;
+            }
+        }
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
