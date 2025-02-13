@@ -7,7 +7,10 @@ public class NQueen {
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
     {
 
-       if()
+       if(col == board.length)
+       {
+        saveBoard()
+       }
 
         for(int row = 0; row<board.length; row++)
         {
