@@ -28,7 +28,11 @@ public class NQueen {
 
         // upper left
 
-        
+        int r = row;
+        for(int c = col; c>=0 && r>=0; c--, r--)
+        {
+            
+        }
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
