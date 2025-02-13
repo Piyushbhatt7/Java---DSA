@@ -91,7 +91,7 @@ public class NQueen {
                     row+= '.';
                 }
             }
-            board.add()
+            newBoard.add(row);
         }
     }
 
