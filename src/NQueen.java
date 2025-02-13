@@ -127,6 +127,16 @@ public class NQueen {
     }
     
     public static void main(String[] args) {
-        
+        NQueen nQueen = new NQueen();
+        int n = 4; // Change 'n' for different board sizes
+        List<List<String>> solutions = nQueen.solveNQueen(n);
+    
+        for (List<String> board : solutions) {
+            for (String row : board) {
+                System.out.println(row);
+            }
+            System.out.println();
+        }
     }
+    
 }
