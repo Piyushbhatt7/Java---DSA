@@ -88,7 +88,7 @@ public class NQueen {
 
                 }
                 else {
-                    
+                    row+= '.';
                 }
             }
         }
