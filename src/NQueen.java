@@ -68,6 +68,8 @@ public class NQueen {
                 return false;
             }
         }
+
+        return true;
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
