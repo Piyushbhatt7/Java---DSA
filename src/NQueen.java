@@ -10,7 +10,7 @@ public class NQueen {
         {
             if(isSafe(row, col, board))
             {
-                
+                board[row][col] = 'Q';
             }
         }
     }
