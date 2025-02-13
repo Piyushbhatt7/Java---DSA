@@ -140,3 +140,5 @@ public class NQueen {
     }
     
 }
+
+// time complexcity O(n^n)
