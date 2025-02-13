@@ -75,7 +75,7 @@ public class NQueen {
     public void saveBoard(char [][] board,  List<List<String>> allBoards)
     {
         String row = "";
-        List<String> board = new ArrayList<>();
+        List<String> newBoard = new ArrayList<>();
 
         for(int i = 0; i<board.length; i++)
         {
@@ -91,6 +91,7 @@ public class NQueen {
                     row+= '.';
                 }
             }
+            board.add()
         }
     }
 
