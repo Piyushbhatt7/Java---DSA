@@ -17,6 +17,11 @@ public class NQueen {
         }
 
         // vertical check
+
+        for(int i=0; i<board[0].length; i++)
+        {
+            
+        }
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
