@@ -18,7 +18,7 @@ public class NQueen {
 
         // vertical check
 
-        for(int i=0; i<board[0].length; i++)
+        for(int i=0; i<board.length; i++)
         {
             if(board[i][col] == 'Q')
             {
@@ -71,6 +71,8 @@ public class NQueen {
 
         return true;
     }
+
+    public void saveBoard(char [][] board,  List<List<String>> allBoards)
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
     {
