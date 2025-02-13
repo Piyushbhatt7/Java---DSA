@@ -10,11 +10,13 @@ public class NQueen {
 
         for(int j=0; j<board.length; j++)
         {
-            if(board[row][col] == 'Q')
+            if(board[row][j] == 'Q')
             {
                 return false;
             }
         }
+
+        // vertical check
     }
 
     public void helper(char [][] board,  List<List<String>> allBoards, int col)
