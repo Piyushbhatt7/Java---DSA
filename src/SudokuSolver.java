@@ -2,7 +2,11 @@ public class SudokuSolver {
 
     public boolean isSafe(char[][] board, int row, int col, int number)
     {
-        
+        // row & column
+        for(int i =0; i<board.length; i++)
+        {
+            if(bo)
+        }
     }
 
     public boolean helper(char[][] board, int row, int col)
