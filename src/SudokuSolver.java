@@ -31,6 +31,13 @@ public class SudokuSolver {
                 {
                     board[row][col] = (char)(i + '0');
                     if(helper(board, newr, newc))
+                    {
+                        return true;
+
+                    }
+                    else {
+                        board[row][col] = '.';
+                    }
                 }
             }
         }
