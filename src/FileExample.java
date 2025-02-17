@@ -22,7 +22,7 @@ public class FileExample {
             System.out.println("File created: " + file.canRead());
         } 
         catch (IOException e) {
-            System.out.println("An error occurred.");  //hkyyyfer
+            System.out.println("An error occurred.");  //hkyyyfertt
             e.printStackTrace();
         }
     }
