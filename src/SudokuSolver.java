@@ -1,5 +1,10 @@
 public class SudokuSolver {
 
+    public boolean isSafe(char[][] board, int row, int col, int number)
+    {
+        
+    }
+
     public boolean helper(char[][] board, int row, int col)
     {
 
