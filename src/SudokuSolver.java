@@ -18,8 +18,8 @@ public class SudokuSolver {
 
         // grid
 
-        int sr = row/3 * 3;
-        int sc = col/3 * 3;
+        int sr = (row/3) * 3;
+        int sc = (col/3) * 3;
 
     }
 
