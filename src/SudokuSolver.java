@@ -32,6 +32,8 @@ public class SudokuSolver {
            }
         }
 
+        return true;
+
     }
 
     public boolean helper(char[][] board, int row, int col)
