@@ -2,7 +2,8 @@ public class SudokuSolver {
 
     public boolean helper(char[][] board, int row, int col)
     {
-
+        int newr = 0;
+        int newc = 0;
     }
     
     public void solveSudoku(char[][] board)
