@@ -27,7 +27,7 @@ public class SudokuSolver {
            {
              if(board[i][j] == (char)(number + '0'))
              {
-                
+                return false;
              }
            }
         }
