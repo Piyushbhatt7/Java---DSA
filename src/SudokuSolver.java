@@ -20,8 +20,18 @@ public class SudokuSolver {
         {
            if( helper(board, newr, newc))
            {
-             
+              return  true;
            }
+        }
+
+        else {
+            for(int i = 1; i<=9; i++)
+            {
+                if(isSafe(board, row, col, i))
+                {
+                    board[row][col] = (char)(i + '0');
+                }
+            }
         }
     }
     
