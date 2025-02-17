@@ -30,6 +30,7 @@ public class SudokuSolver {
                 if(isSafe(board, row, col, i))
                 {
                     board[row][col] = (char)(i + '0');
+                    if(helper(board, newr, newc))
                 }
             }
         }
