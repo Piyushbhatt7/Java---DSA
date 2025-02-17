@@ -8,6 +8,10 @@ public class SudokuSolver {
         {
             newr = row;
             newc = col + 1;
+
+        }
+
+        else {
             
         }
     }
