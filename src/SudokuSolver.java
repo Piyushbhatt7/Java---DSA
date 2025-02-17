@@ -15,6 +15,14 @@ public class SudokuSolver {
             newr = row + 1;
             newc = 0;
         }
+
+        if(board[row][col] != '.')
+        {
+           if( helper(board, newr, newc))
+           {
+             
+           }
+        }
     }
     
     public void solveSudoku(char[][] board)
