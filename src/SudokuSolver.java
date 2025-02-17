@@ -5,7 +5,7 @@ public class SudokuSolver {
         // row & column
         for(int i =0; i<board.length; i++)
         {
-            if(bo)
+            if(board[i][col] == (char)(number))
         }
     }
 
