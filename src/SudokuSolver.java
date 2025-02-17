@@ -7,7 +7,7 @@ public class SudokuSolver {
     
     public void solveSudoku(char[][] board)
     {
-       helper(board, 0, 0)
+       helper(board, 0, 0);
     }
     
     public static void main(String[] args) {
