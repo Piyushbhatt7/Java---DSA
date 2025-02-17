@@ -20,7 +20,8 @@ public class FileExample {
             System.out.println("File created: " + file.getAbsolutePath());
             System.out.println("File created: " + file.canWrite());
             System.out.println("File created: " + file.canRead());
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
