@@ -12,7 +12,8 @@ public class SudokuSolver {
         }
 
         else {
-            
+            newr = row + 1;
+            newc = 0;
         }
     }
     
