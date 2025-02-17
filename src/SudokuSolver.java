@@ -41,6 +41,7 @@ public class SudokuSolver {
                 }
             }
         }
+        return false;
     }
     
     public void solveSudoku(char[][] board)
