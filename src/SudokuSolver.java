@@ -4,6 +4,12 @@ public class SudokuSolver {
     {
         int newr = 0;
         int newc = 0;
+        if(col != board.length-1)
+        {
+            newr = row;
+            newc = col + 1;
+            
+        }
     }
     
     public void solveSudoku(char[][] board)
