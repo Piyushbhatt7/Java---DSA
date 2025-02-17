@@ -10,7 +10,10 @@ public class SudokuSolver {
                 return false;
             }
 
-            if([row][i] == (char)(number))
+            if(board[row][i] == (char)(number + '0'))
+            {
+
+            }
         }
     }
 
