@@ -12,9 +12,14 @@ public class SudokuSolver {
 
             if(board[row][i] == (char)(number + '0'))
             {
-
+               return false;
             }
         }
+
+        // grid
+
+        int sr = r/3 * 3;
+
     }
 
     public boolean helper(char[][] board, int row, int col)
