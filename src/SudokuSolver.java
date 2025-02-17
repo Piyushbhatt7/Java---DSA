@@ -21,6 +21,17 @@ public class SudokuSolver {
         int sr = (row/3) * 3;
         int sc = (col/3) * 3;
 
+        for(int i = sr; i<sr+3; i++)
+        {
+           for(int j = sc; j<sc+3; j++)
+           {
+             if(board[i][j] == (char)(number + '0'))
+             {
+                
+             }
+           }
+        }
+
     }
 
     public boolean helper(char[][] board, int row, int col)
