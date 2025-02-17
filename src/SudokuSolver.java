@@ -2,6 +2,12 @@ public class SudokuSolver {
 
     public boolean helper(char[][] board, int row, int col)
     {
+
+        if(row == board.length)
+        {
+            return true;
+        }
+
         int newr = 0;
         int newc = 0;
         if(col != board.length-1)
