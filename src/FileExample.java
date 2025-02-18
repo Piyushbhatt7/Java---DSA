@@ -25,5 +25,5 @@ public class FileExample {
             System.out.println("An error occurred.");
             e.printStackTrace();
         } 
-    } fsrrdfgtttyygrgkwfugs7f
+    } fsrrdfgtttyygrgkwfugs
 }
