@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 
 
 
@@ -32,7 +35,8 @@ public class Files {
 
         // reading a file
 
-        
+        File myFile = new myFile("Hii.txt");
+        Scanner ssc = new Scanner(myFile);
 
     
     }
