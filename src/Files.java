@@ -6,6 +6,7 @@ public class Files {
     
     public static void main(String[] args) {
         
+        // code to create a new file
         File myFile = new File("Files.txt");
 
         try {
