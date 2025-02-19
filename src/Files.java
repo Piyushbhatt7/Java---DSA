@@ -30,7 +30,7 @@ public class Files {
         // }
 
         // reading a file
-        File myFile = new myFile("chwfile.txt");
+        File myFile = new File("chwfile.txt");
         try {
             
             Scanner ssc = new Scanner(myFile);
