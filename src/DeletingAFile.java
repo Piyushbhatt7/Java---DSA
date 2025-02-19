@@ -9,7 +9,11 @@ public class DeletingAFile {
         if(myFile.delete())
         {
             System.out.println("File deleted uccessfully " + myFile.getName());
-            
+
+        }
+
+        else{
+            System.out.println("Error occured while deleting a file");
         }
     }
 }
