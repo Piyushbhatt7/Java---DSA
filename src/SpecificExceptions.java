@@ -11,10 +11,11 @@ public class SpecificExceptions {
         marks[2] = 12;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array index");
-
+        int idx = sc.nextInt();
         try {
             
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
         }
     }
 }
