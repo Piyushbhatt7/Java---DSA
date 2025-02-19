@@ -7,6 +7,12 @@ public class FileRead {
         
         // file reading 
 
-        File myFile = new 
+        File myFile = new File("Newfile.txt");
+
+        try {
+            
+        } catch (Exception e) {
+            
+        }
     }
 }
