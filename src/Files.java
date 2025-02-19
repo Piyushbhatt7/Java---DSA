@@ -6,7 +6,7 @@ public class Files {
     
     public static void main(String[] args) {
         
-        File myFile = new File(pathname: "Files.txt");
+        File myFile = new File("Files.txt");
 
         try {
             myFile.createNewFile();
