@@ -13,6 +13,7 @@ public class WriteAFile {
             
             FileWriter myFileWriter = new FileWriter("Newfile.txt");
             myFileWriter.write("new file created a writing on it");
+            myFileWriter.close();
         } 
         catch (IOException e) {
             System.out.println("Failed to create a file");
