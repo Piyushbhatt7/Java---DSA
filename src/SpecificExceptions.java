@@ -18,6 +18,8 @@ public class SpecificExceptions {
 
         try {
             
+            System.out.println("The value at array index is: " + marks[idx]);
+            System.out.println("The value of array value divide by is: " + marks[idx] / number);
         } 
         catch (Exception e) {
         }
