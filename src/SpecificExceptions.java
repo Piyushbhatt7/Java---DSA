@@ -12,6 +12,10 @@ public class SpecificExceptions {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array index");
         int idx = sc.nextInt();
+
+        System.out.println("Enter the number you want to devide index");
+        int number = sc.nextInt();
+
         try {
             
         } 
