@@ -12,7 +12,7 @@ public class Files {
             myFile.createNewFile();
         } 
         catch (IOException e) {
-            System.out.println("");
+            System.out.println("Unable to create this file");
             e.printStackTrace();
         }
     }
