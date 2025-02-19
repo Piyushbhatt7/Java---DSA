@@ -21,6 +21,8 @@ public class FileRead {
             
         } catch (Exception e) {
 
+            System.out.println("Unable to read a file content");
+
         }
     }
 }
