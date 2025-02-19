@@ -45,10 +45,14 @@ public class Files {
         //     e.printStackTrace();
         // }
       
-        File myFile = new Files("chwfile.txt");
+        File myFile = new File("chwfile.txt");
         if(myFile.delete())
         {
-            System.out.println("File deleted successfully" + myFile.getName());
+            System.out.println("File deleted successfully " + myFile.getName());
+        }
+
+        else {
+            System.out.println("Error occurred while deleting the file");
         }
 
     
