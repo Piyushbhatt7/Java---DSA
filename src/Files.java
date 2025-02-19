@@ -24,7 +24,7 @@ public class Files {
         try 
          {
             FileWriter myFileWriter = new FileWriter("chwfile.txt");
-            myFileWriter
+            myFileWriter.write("This is first file form java file handling");
         } 
         catch (IOException e) {
             // TODO Auto-generated catch block
