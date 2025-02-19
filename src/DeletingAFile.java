@@ -3,7 +3,7 @@ import java.io.File;
 
 public class DeletingAFile {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         
         File myFile = new File("Newfile.txt");
         if(myFile.delete())
