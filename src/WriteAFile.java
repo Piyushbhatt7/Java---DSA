@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.io.FileWriter;
 
 public class WriteAFile {
     
@@ -9,7 +10,9 @@ public class WriteAFile {
 
         try {
             
-        } catch (Exception e) {
+            FileWriter myFileWriter = new FileWriter("Newfile.txt");
+        } 
+        catch (Exception e) {
         }
     }
 }
