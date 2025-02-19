@@ -22,6 +22,8 @@ public class SpecificExceptions {
             System.out.println("The value of array value divide by is: " + marks[idx] / number);
         } 
         catch (Exception e) {
+
+            System.out.println("Some exception occured");
         }
     }
 }
