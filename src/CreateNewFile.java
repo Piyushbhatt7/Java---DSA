@@ -9,7 +9,10 @@ public class CreateNewFile {
         try {
             
             myFile.createNewFile();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
+            System.out.println("File creation failed");
+            e.printStackTrace();
         }
     }
 }
