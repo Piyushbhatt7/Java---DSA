@@ -1,5 +1,4 @@
 import java.io.File;
-import java.util.Scanner;
 
 public class Files {
     
@@ -30,22 +29,27 @@ public class Files {
         // }
 
         // reading a file
-        File myFile = new File("chwfile.txt");
-        try {
+        // File myFile = new File("chwfile.txt");
+        // try {
             
-            Scanner sc = new Scanner(myFile);
-            while(sc.hasNextLine())
-            {
-               String line = sc.nextLine();
-               System.out.println(line);
-            }
+        //     Scanner sc = new Scanner(myFile);
+        //     while(sc.hasNextLine())
+        //     {
+        //        String line = sc.nextLine();
+        //        System.out.println(line);
+        //     }
 
-            sc.close();
-        } 
-        catch (Exception e) {
-            e.printStackTrace();
-        }
+        //     sc.close();
+        // } 
+        // catch (Exception e) {
+        //     e.printStackTrace();
+        // }
       
+        File myFile = new Files("chwfile.txt");
+        if(myFile.delete())
+        {
+            System.out.println("File deleted successfully" + myFile.getName());
+        }
 
     
     }
