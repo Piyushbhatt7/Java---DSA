@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.io.IOException;
 
 public class Files {
     
@@ -10,7 +11,9 @@ public class Files {
         try {
             myFile.createNewFile();
         } 
-        catch (Exception e) {
+        catch (IOException e) {
+            System.out.println("");
+            e.printStackTrace();
         }
     }
 }
