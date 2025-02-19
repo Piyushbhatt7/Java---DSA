@@ -39,6 +39,8 @@ public class Files {
                String line = sc.nextLine();
                System.out.println(line);
             }
+
+            sc.close();
         } 
         catch (Exception e) {
             e.printStackTrace();
