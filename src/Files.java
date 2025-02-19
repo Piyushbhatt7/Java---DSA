@@ -33,8 +33,12 @@ public class Files {
         File myFile = new File("chwfile.txt");
         try {
             
-            Scanner ssc = new Scanner(myFile);
-            
+            Scanner sc = new Scanner(myFile);
+            while(sc.hasNextLine())
+            {
+               String line = sc.nextLine();
+               System.out.println(line);
+            }
         } 
         catch (Exception e) {
             e.printStackTrace();
