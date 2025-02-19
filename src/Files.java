@@ -8,7 +8,7 @@ public class Files {
         File myFile = new File(pathname: "Files.txt");
 
         try {
-            
+            myFile.createNewFile();
         } 
         catch (Exception e) {
         }
