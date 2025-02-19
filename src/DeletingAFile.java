@@ -5,7 +5,7 @@ public class DeletingAFile {
     
     public static void main(String[] args) {
         
-        File myFile = new File("File.txt");
+        File myFile = new File("Newfile.txt");
         if(myFile.delete())
         {
             System.out.println("File deleted uccessfully " + myFile.getName());
