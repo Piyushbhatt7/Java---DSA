@@ -1,10 +1,11 @@
+import java.io.File;
 
 public class Files {
     
     public static void main(String[] args) {
         
-        // code to create a new file
-        // File myFile = new File("Files.txt");
+        //code to create a new file
+        File myFile = new File("Files.txt");
 
         // try {
         //     myFile.createNewFile();
@@ -19,7 +20,7 @@ public class Files {
         // try 
         //  {
         //     FileWriter myFileWriter = new FileWriter("chwfile.txt");
-        //     myFileWriter.write("This is first file form java file handling");
+        //     myFileWriter.write("This is first file form java file handling \n hii");
         //     myFileWriter.close();
         // } 
         // catch (IOException e) {
