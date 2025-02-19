@@ -1,6 +1,4 @@
 
-import java.io.FileWriter;
-import java.io.IOException;
 
 
 
@@ -21,18 +19,20 @@ public class Files {
 
         // code to write to a file
 
-        try 
-         {
-            FileWriter myFileWriter = new FileWriter("chwfile.txt");
-            myFileWriter.write("This is first file form java file handling");
-            myFileWriter.close();
-        } 
-        catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        // try 
+        //  {
+        //     FileWriter myFileWriter = new FileWriter("chwfile.txt");
+        //     myFileWriter.write("This is first file form java file handling");
+        //     myFileWriter.close();
+        // } 
+        // catch (IOException e) {
+        //     // TODO Auto-generated catch block
+        //     e.printStackTrace();
+        // }
 
         // reading a file
+
+        
 
     
     }
