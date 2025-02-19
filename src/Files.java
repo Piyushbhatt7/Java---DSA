@@ -16,5 +16,7 @@ public class Files {
             System.out.println("Unable to create this file");
             e.printStackTrace();
         }
+
+        // code to write to a file
     }
 }
