@@ -30,19 +30,19 @@ public class SpecificExceptions {
 
         catch (IOException e) {
 
-            System.out.println("Some exception occured");
+            System.out.println("IO Exception occured");
             System.out.println(e);
         }
 
         catch (ArithmeticException e) {
 
-            System.out.println("Some exception occured");
+            System.out.println("Arithmetic Exception occured");
             System.out.println(e);
         }
 
         catch (ArrayIndexOutOfBoundsException e) {
 
-            System.out.println("Some exception occured");
+            System.out.println("ArrayIndex Out Of Bounds Exception occured");
             System.out.println(e);
         }
     }
