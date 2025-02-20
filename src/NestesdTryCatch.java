@@ -13,8 +13,10 @@ public class NestesdTryCatch {
 
             try {
                 
+                System.out.println(marks[9]);
             } 
-            catch (Exception e) {
+            catch (ArrayIndexOutOfBoundsException e) {
+                  System.out.println("Sorry this index does not exists");
             }
         } 
         catch (Exception e) {
