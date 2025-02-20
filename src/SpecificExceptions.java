@@ -39,5 +39,11 @@ public class SpecificExceptions {
             System.out.println("Some exception occured");
             System.out.println(e);
         }
+
+        catch (ArrayIndexOutOfBoundsException e) {
+
+            System.out.println("Some exception occured");
+            System.out.println(e);
+        }
     }
 }
