@@ -1,4 +1,5 @@
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class SpecificExceptions {
@@ -22,6 +23,18 @@ public class SpecificExceptions {
             System.out.println("The value of array value divide by is: " + marks[idx] / number);
         } 
         catch (Exception e) {
+
+            System.out.println("Some exception occured");
+            System.out.println(e);
+        }
+
+        catch (IOException e) {
+
+            System.out.println("Some exception occured");
+            System.out.println(e);
+        }
+
+        catch (ArithmeticException e) {
 
             System.out.println("Some exception occured");
             System.out.println(e);
