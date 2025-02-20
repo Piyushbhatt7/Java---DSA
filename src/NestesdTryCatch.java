@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class NestesdTryCatch {
     
     public static void main(String[] args) {
@@ -6,6 +9,7 @@ public class NestesdTryCatch {
         marks[0] = 7;
         marks[1] = 56;
         marks[2] = 12;
+        Scanner sc = new Scanner(System.in);
         
         try {
             
