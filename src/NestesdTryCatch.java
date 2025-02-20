@@ -32,7 +32,7 @@ public class NestesdTryCatch {
             }
         } 
         catch (Exception e) {
-    // uuuuiyuuuuyyerrkryeur
+    // uuuuiyuu
             System.out.println("Exception in level 2");
         } 
 
