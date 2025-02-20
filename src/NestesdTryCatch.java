@@ -24,6 +24,7 @@ public class NestesdTryCatch {
             try {
                 
                 System.out.println(marks[9]);
+                flag = false;
             } 
             catch (ArrayIndexOutOfBoundsException e) {
                   System.out.println("Sorry this index does not exists");
@@ -34,8 +35,8 @@ public class NestesdTryCatch {
 
             System.out.println("Exception in level 2");
         }
-        
+
         }
-       
+       System.out.println("Thanks for using this program");
     }
 }
