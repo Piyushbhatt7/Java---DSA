@@ -1,5 +1,4 @@
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class SpecificExceptions {
@@ -22,18 +21,6 @@ public class SpecificExceptions {
             System.out.println("The value at array index is: " + marks[idx]);
             System.out.println("The value of array value divide by is: " + marks[idx] / number);
         } 
-        catch (Exception e) {
-
-            System.out.println("Some exception occured");
-            System.out.println(e);
-        }
-
-        catch (IOException e) {
-
-            System.out.println("IO Exception occured");
-            System.out.println(e);
-        }
-
         catch (ArithmeticException e) {
 
             System.out.println("Arithmetic Exception occured");
@@ -43,6 +30,12 @@ public class SpecificExceptions {
         catch (ArrayIndexOutOfBoundsException e) {
 
             System.out.println("ArrayIndex Out Of Bounds Exception occured");
+            System.out.println(e);
+        }
+
+        catch (Exception e) {
+
+            System.out.println("Some exception occured");
             System.out.println(e);
         }
     }
