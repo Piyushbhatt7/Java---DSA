@@ -24,6 +24,7 @@ public class SpecificExceptions {
         catch (Exception e) {
 
             System.out.println("Some exception occured");
+            System.out.println(e);
         }
     }
 }
