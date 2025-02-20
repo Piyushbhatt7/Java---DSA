@@ -10,7 +10,9 @@ public class NestesdTryCatch {
         marks[1] = 56;
         marks[2] = 12;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter array index");
         int idx = sc.nextInt();
+        
         
         try {
             
