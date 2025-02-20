@@ -10,6 +10,7 @@ public class NestesdTryCatch {
         marks[1] = 56;
         marks[2] = 12;
         Scanner sc = new Scanner(System.in);
+        int idx = sc.nextInt();
         
         try {
             
