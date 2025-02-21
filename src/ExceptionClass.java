@@ -9,7 +9,7 @@ public class ExceptionClass  extends Exception{
         return super.toString() + "I am toString()";
     }
 
-    public static getMessage()
+    public String getMessage()
     {
         return Superclass.getMessage() + "I am getMessage()";
     }
