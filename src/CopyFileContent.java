@@ -1,10 +1,11 @@
 
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 
 public class CopyFileContent{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
         String source = "mysource.txt";
         String destination  = "mydestination.txt";
