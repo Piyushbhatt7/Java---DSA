@@ -22,7 +22,13 @@ public class ExceptionClass  extends Exception{
         a = sc.nextInt();
         if(a>9)
         {
+
+           try {
             throw new ExceptionClass("")
+           } 
+           catch (Exception e) {
+            
+           }
         }
     }
 }
