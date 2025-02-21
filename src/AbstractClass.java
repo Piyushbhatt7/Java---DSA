@@ -13,6 +13,14 @@ abstract class Base1 {
     abstract public void greet();
 }
 
+class Base2 extends Base1 {
+
+    public void greet()
+    {
+        System.out.println("Ne hoa");
+    }
+}
+
 public class AbstractClass {
     
     public static void main(String args[])
