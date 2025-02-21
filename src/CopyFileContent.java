@@ -1,4 +1,5 @@
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -22,6 +23,15 @@ public class CopyFileContent{
             }
 
             System.out.println("File content copied successfull");
+        }
+
+        catch(FileNotFoundException e)
+        {
+            System.out.println("File not found " + e.getMessage());
+        }
+        catch(IOException e)
+        {
+            System.out.println("Error during file operation " + e.getMessage());
         }
     }
 }
