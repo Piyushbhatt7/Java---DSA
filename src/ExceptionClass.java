@@ -1,5 +1,6 @@
 public class ExceptionClass  extends Exception{
 
+    @Override
     public String toString()
     {
         return super.toString();
