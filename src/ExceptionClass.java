@@ -17,7 +17,7 @@ public class ExceptionClass  extends Exception{
         int a = 8;
         if(a>99)
         {
-            
+            throw new ExceptionClass("")
         }
     }
 }
