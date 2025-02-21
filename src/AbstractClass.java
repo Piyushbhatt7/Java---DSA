@@ -4,6 +4,11 @@ class Base1 {
     {
         System.out.println("Base 1 constructor");
     }
+
+    public void sayHello()
+    {
+        System.out.println("Hello");
+    }
 }
 
 public class AbstractClass {
