@@ -11,7 +11,7 @@ public class ExceptionClass  extends Exception{
 
     public String getMessage()
     {
-        return Superclass.getMessage() + "I am getMessage()";
+        return super.getMessage() + "I am getMessage()";
     }
     
     public static void main(String[] args) {
