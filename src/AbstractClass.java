@@ -1,4 +1,4 @@
-class Base1 {
+abstract class Base1 {
 
     public Base1()
     {
