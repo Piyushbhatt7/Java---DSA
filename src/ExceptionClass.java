@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class ExceptionClass  extends Exception{
 
     @Override
@@ -15,7 +18,8 @@ public class ExceptionClass  extends Exception{
     public static void main(String[] args) {
         
         int a = 8;
-        if(a>99)
+        Scanner sc = new Scanner(System.in);
+        if(a>9)
         {
             throw new ExceptionClass("")
         }
