@@ -8,8 +8,8 @@ public class CopyFileContent{
 
     public static void main(String[] args) throws IOException {
         
-        String source = "mysource.txt";
-        String destination  = "mydestination.txt";
+        String source = "source.txt";
+        String destination  = "destination.txt";
 
         try (FileReader fr = new FileReader(source); 
             FileWriter fw = new FileWriter(destination)
