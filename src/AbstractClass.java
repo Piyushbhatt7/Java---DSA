@@ -15,6 +15,7 @@ abstract class Base1 {
 
 class Base2 extends Base1 {
 
+    @Override
     public void greet()
     {
         System.out.println("Ne hoa");
