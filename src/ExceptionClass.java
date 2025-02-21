@@ -9,6 +9,7 @@ public class ExceptionClass  extends Exception{
         return super.toString() + "I am toString()";
     }
 
+    @Override
     public String getMessage()
     {
         return super.getMessage() + "I am getMessage()";
