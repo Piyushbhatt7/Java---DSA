@@ -1,3 +1,11 @@
+class Base1 {
+
+    public Base1()
+    {
+        System.out.println("Base 1 constructor");
+    }
+}
+
 public class AbstractClass {
     
     public static void main(String args[])
