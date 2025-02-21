@@ -24,7 +24,7 @@ public class ExceptionClass  extends Exception{
         {
 
            try {
-            throw new ExceptionClass("")
+            throw new ExceptionClass();
            } 
            catch (Exception e) {
               
