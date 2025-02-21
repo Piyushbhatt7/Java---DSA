@@ -1,6 +1,3 @@
-
-import java.lang.classfile.Superclass;
-
 public class ExceptionClass  extends Exception{
 
     @Override
