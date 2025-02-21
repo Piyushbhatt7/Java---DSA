@@ -25,7 +25,7 @@ public class ExceptionClass  extends Exception{
         int a;
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
-        if(a>9) 
+        if(a>9)  
         {
 
            try {
