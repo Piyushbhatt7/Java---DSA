@@ -9,6 +9,8 @@ class Base1 {
     {
         System.out.println("Hello");
     }
+
+    abstract public void greet();
 }
 
 public class AbstractClass {
