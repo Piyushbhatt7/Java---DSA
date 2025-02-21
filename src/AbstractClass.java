@@ -1,5 +1,8 @@
 public class AbstractClass {
     
-    public
+    public static void main(String args[])
+    {
+        
+    }
    
 }
