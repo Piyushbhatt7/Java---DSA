@@ -18,7 +18,7 @@ class Base2 extends Base1 {
     @Override
     public void greet()
     {
-        System.out.println("Ne hoa");
+        System.out.println("Ne hao");
     }
 }
 
