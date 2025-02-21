@@ -6,7 +6,8 @@ public class AbstractClass {
          
 
         // abstract method is declared without an implementation
-        
+
+        // abstract void moveTo(double x, double y);
     }
    
 }
