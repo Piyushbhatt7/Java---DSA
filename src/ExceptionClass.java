@@ -27,7 +27,8 @@ public class ExceptionClass  extends Exception{
             throw new ExceptionClass("")
            } 
            catch (Exception e) {
-            
+              
+            System.out.println(e.getMessage());
            }
         }
     }
