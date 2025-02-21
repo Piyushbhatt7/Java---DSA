@@ -39,6 +39,7 @@ public class AbstractClass {
         // public abstract class PhoneModel {
         //   abstract void switchoff();
         // }
+        Base2 b = new Base2();
     }
    
 }
