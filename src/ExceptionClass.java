@@ -30,6 +30,7 @@ public class ExceptionClass  extends Exception{
 
            try {
             throw new ExceptionClass("Number is greater then 9");
+            throw new ArithmeticException("This is an exception");
            } 
            catch (Exception e) {
               
