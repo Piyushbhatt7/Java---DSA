@@ -36,6 +36,7 @@ public class ExceptionClass  extends Exception{
               
             System.out.println(e.getMessage());
             System.out.println(e.toString());
+            e.printStackTrace();
            }
            System.out.println("Yes Finished");
         }
