@@ -1,1 +1,1 @@
-FileOperation
+throw new NegativeRadiusException();
