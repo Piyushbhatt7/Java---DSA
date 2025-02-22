@@ -1,7 +1,7 @@
 public class Throw_Throws {
 
 
-    class NegativeRadiusException extends Exception
+    static class NegativeRadiusException extends Exception
     {
        @Override
        public String toString()
