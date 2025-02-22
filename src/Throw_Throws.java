@@ -3,7 +3,17 @@ public class Throw_Throws {
 
     class NegativeRadiusException extends Exception
     {
-       
+       @Override
+       public String toString()
+       {
+        return "Radius cannot be negative";
+       }
+
+       @Override
+       public String getMesString()
+       {
+        return "Radius cannot be negative!";
+       }
     }
 
     public static double area(int radius)
