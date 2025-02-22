@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class ExceptionClass  extends Exception{
 
  
