@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ExceptionClass  extends Exception{
 
  
-    public ExceptionClass(String message)
+    public ExceptionClass(String message) 
     {
         super(message);
     }
@@ -19,6 +19,7 @@ public class ExceptionClass  extends Exception{
         return super.getMessage() + " - I am getMessage()";
     }
     
+    @SuppressWarnings({"CallToPrintStackTrace", "UseSpecificCatch"})
     public static void main(String[] args) {
         
         int a;
