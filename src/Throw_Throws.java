@@ -9,5 +9,6 @@ public class Throw_Throws {
     public static void main(String[] args) {
         
         // porter - uses divide function created by harry
+        
     }
 }
