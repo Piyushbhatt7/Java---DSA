@@ -11,11 +11,13 @@ public class Throw_Throws {
         // porter - uses divide function created by harry
         try {
             int c = divide(6,0);
+            System.out.println(c);
         } 
         catch (Exception e) {
-
+           
+            System.out.println("Exception");
         }
         
-        System.out.println(c);
+        
     }
 }
