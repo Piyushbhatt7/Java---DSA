@@ -1,6 +1,6 @@
 public class Throw_Throws {
     
-    static int divide(int a, int b)
+    static int divide(int a, int b) throws ArithmeticException
     {
         // made by harry
         int result = a/b;
