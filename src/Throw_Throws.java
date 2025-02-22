@@ -1,4 +1,10 @@
 public class Throw_Throws {
+
+    public static double area(int radius)
+    {
+        double result = Math.PI * radius * radius;
+        return result;
+    }
     
     static int divide(int a, int b) throws ArithmeticException 
     {
