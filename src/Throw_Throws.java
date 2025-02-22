@@ -10,14 +10,18 @@ public class Throw_Throws {
        }
 
        @Override
-       public String getMesString()
+       public String getMessage()
        {
         return "Radius cannot be negative!";
        }
     }
 
-    public static double area(int radius)
+    public static double area(int radius) throws NegativeRadiusException
     {
+        if (radius < 0)
+        {
+            throw new NegativeRadiusException();
+        }
         double result = Math.PI * radius * radius;
         return result;
     }
