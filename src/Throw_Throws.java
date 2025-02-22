@@ -1,6 +1,6 @@
 public class Throw_Throws {
     
-    int divide(int a, int b)
+    static int divide(int a, int b)
     {
         // made by harry
         int result = a/b;
@@ -10,5 +10,6 @@ public class Throw_Throws {
         
         // porter - uses divide function created by harry
         int c = divide(6,0);
+        System.out.println(c);
     }
 }
