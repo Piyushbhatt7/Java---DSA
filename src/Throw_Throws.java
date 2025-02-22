@@ -39,11 +39,11 @@ public class Throw_Throws {
             int c = divide(6,0);
             System.out.println(c);
         } 
-        catch (Exception e) {
+        catch (ArithmeticException e) {
            
             System.out.println("Exception " + e.getMessage());
         }
         
         
-    }
+    } 
 }
