@@ -2,7 +2,7 @@
 import java.util.Scanner;              
 public class ExceptionClass  extends Exception{
 
-   
+    
     public ExceptionClass(String message)      
     {
         super(message);
