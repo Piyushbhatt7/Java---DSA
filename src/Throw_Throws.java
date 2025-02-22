@@ -15,7 +15,7 @@ public class Throw_Throws {
         } 
         catch (Exception e) {
            
-            System.out.println("Exception");
+            System.out.println("Exception " + e.getMessage());
         }
         
         
