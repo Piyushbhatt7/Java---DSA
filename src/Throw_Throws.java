@@ -1,5 +1,11 @@
 public class Throw_Throws {
 
+
+    class NegativeRadiusException extends Exception
+    {
+       
+    }
+
     public static double area(int radius)
     {
         double result = Math.PI * radius * radius;
