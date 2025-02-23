@@ -10,7 +10,7 @@ public class Finally_Block {
 
         catch(Exception e)
         {
-            
+            System.out.println(e);
         }
     }
 }
