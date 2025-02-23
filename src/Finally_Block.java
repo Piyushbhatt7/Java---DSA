@@ -2,11 +2,7 @@ public class Finally_Block {
 
     public static void greet()
     {
-        
-    }
-    
-    public static void main(String[] args) {
-        
+         
         try {
 
             int a = 5;
@@ -22,5 +18,9 @@ public class Finally_Block {
         finally {
             System.out.println("This is the end of programm");
         }
+    }
+    
+    public static void main(String[] args) {
+      
     }
 }
