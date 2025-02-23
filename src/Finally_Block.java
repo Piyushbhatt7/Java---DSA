@@ -19,6 +19,7 @@ public class Finally_Block {
         finally {
             System.out.println("This is the end of programm");
         }
+        return 0;
     }
     
     public static void main(String[] args) {
