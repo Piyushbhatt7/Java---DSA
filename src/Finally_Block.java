@@ -6,7 +6,7 @@ public class Finally_Block {
         try {
 
             int a = 50;
-            int b = 0;
+            int b = 2;
             int c = a / b;
             return c;
         }
