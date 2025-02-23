@@ -24,6 +24,7 @@ public class Finally_Block {
     
     public static void main(String[] args) {
       
-        greet();
+        int result = greet();
+        System.out.println(result);
     }
 }
