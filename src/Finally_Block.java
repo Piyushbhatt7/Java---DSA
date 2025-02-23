@@ -12,6 +12,6 @@ public class Finally_Block {
         {
             System.out.println(e);
         }
-        System.out.println();
+        System.out.println("This i the end of programm");
     }
 }
