@@ -8,6 +8,7 @@ public class Finally_Block {
             int a = 5;
             int b = 0;
             int c = a / b;
+            return c;
         }
 
         catch(Exception e)
