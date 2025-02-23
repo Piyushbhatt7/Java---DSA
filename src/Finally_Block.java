@@ -8,6 +8,9 @@ public class Finally_Block {
             int b = 0;
         }
 
-        catch
+        catch(Exception e)
+        {
+            
+        }
     }
 }
