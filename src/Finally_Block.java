@@ -1,6 +1,6 @@
 public class Finally_Block {
 
-    public static void greet()
+    public static int greet()
     {
          
         try {
@@ -8,7 +8,6 @@ public class Finally_Block {
             int a = 50;
             int b = 0;
             int c = a / b;
-            return c;
         }
 
         catch(Exception e)
