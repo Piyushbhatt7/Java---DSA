@@ -34,10 +34,19 @@ public class PracticeSet {
         int index = sc.nextInt();
         int i = 0;
         while(flag && i<5)
+
+        try{
         {
            System.out.println("The value of marks[index] is : " + marks[index]);
            i++;
         }
+    }
+
+    catch (Exception e)
+    {
+        System.out.println("Invalid Index");
+        i++;
+    }
 
     }
 }
