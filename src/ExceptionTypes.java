@@ -1,4 +1,5 @@
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ExceptionTypes {
@@ -20,7 +21,14 @@ public class ExceptionTypes {
 
         catch(ArithmeticException e)
         {
-            
+            System.out.println("Cannot divide by Zero!");
+            System.out.println(e.getMessage());
+        }
+
+        catch(InputMismatchException e)
+        {
+            System.out.println("Wrong input giver!");
+            System.out.println(e.getMessage());
         }
 
 
