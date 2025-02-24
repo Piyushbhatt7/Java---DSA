@@ -46,6 +46,7 @@ public class PracticeSet {
     {
         System.out.println("Invalid Index");
         i++;
+        flag = false;
     }
 
     }
