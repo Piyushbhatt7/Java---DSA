@@ -31,14 +31,16 @@ public class PracticeSet {
         boolean flag = true;
         int marks [] = {7,56,6};
         Scanner sc = new Scanner(System.in);
-        int index = sc.nextInt();
         int i = 0;
         while(flag && i<5)
 
         try{
         {
+           System.out.println("Enter the index value: ");
+           int index = sc.nextInt();
            System.out.println("The value of marks[index] is : " + marks[index]);
-           i++;
+           //i++;
+           break;
         }
     }
 
@@ -46,7 +48,8 @@ public class PracticeSet {
     {
         System.out.println("Invalid Index");
         i++;
-        flag = false;
+        
+        //flag = false;
     }
 
     }
