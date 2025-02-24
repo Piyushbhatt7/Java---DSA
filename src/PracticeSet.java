@@ -6,6 +6,7 @@ public class PracticeSet {
         // Syntax Error - int a = 7
         // int age = 78;
         // Logical Error - int year_born = 2000-78;
+        System.out.println(6/0);
 
 
     }
