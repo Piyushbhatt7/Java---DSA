@@ -12,5 +12,7 @@ public class MasalaCalculator {
         // 5. % - Modulor
         
          // which throws the following exceptions :-
+
+         //1. Invalid Input Exception ex : 8 & 9
     }
 }
