@@ -1,5 +1,6 @@
+ package piyush;
 import java.util.Scanner;
-// package piyush;
+
 public class PackagesinJava {
     
     public static void main(String[] args) {
