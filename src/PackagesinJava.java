@@ -8,7 +8,7 @@ public class PackagesinJava {
         
        // System.out.println("This is a package in java");
        Scanner sc = new Scanner(System.in);
-       System.out.print("Enter scanner input");
+       System.out.print("Enter scanner input: ");
        int a = sc.nextInt();
        
     }
