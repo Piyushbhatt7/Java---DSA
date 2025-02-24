@@ -16,5 +16,7 @@ public class MasalaCalculator {
          // 1. Invalid Input Exception ex : 8 & 9
          // 2. Cannot divide by 0 Exception
          // 3. Max Input Exception if any input is graeter then 1000000
+         // 4. Max Multiplier Reached Exception - don't allow any multiplication input to be greater then 7000
+         
     }
 }
