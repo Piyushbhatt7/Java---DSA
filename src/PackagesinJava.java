@@ -9,6 +9,6 @@ public class PackagesinJava {
        // System.out.println("This is a package in java");
        Scanner sc = new Scanner(System.in);
        int a = sc.nextInt();
-       System.out.println("This is my scanner");
+       System.out.println("Enter scanner input");
     }
 }
