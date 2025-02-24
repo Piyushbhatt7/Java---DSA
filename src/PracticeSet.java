@@ -32,9 +32,11 @@ public class PracticeSet {
         int marks [] = {7,56,6};
         Scanner sc = new Scanner(System.in);
         int index = sc.nextInt();
+        int i = 0;
         while(flag)
         {
-           
+           System.out.println("The value of marks[index] is : " + marks[index]);
+           i++;
         }
 
     }
