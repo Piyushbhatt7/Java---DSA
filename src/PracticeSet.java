@@ -33,7 +33,7 @@ public class PracticeSet {
         Scanner sc = new Scanner(System.in);
         int index = sc.nextInt();
         int i = 0;
-        while(flag)
+        while(flag && i<5)
         {
            System.out.println("The value of marks[index] is : " + marks[index]);
            i++;
