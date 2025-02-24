@@ -1,4 +1,4 @@
-package piyush;
+package packagesinJava;
 public class PackagesinJava {
     
     public static void main(String[] args) {
