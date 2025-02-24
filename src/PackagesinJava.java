@@ -8,5 +8,6 @@ public class PackagesinJava {
         
        // System.out.println("This is a package in java");
        Scanner sc = new Scanner(System.in);
+       System.out.println("This is my scanner");
     }
 }
