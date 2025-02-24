@@ -11,11 +11,15 @@ public class PracticeSet {
         // problem 2
 
         try {
-            
+            int a = 66/9;
 
         } 
-        catch (Exception e) {
-            
+        catch (IllegalArgumentException e) {
+             System.out.println("haha");
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("hhehe");
         }
 
     }
