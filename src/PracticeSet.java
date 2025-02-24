@@ -26,9 +26,10 @@ public class PracticeSet {
         // problem 3
 
         boolean flag = true;
+        int marks [] = {7,56,6};
         while(flag)
         {
-            
+
         }
 
     }
