@@ -6,7 +6,9 @@ public class ExceptionTypes {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        int remainder;
+        System.out.println("Enter first number: ");
+        int remainder = sc.nextInt();
+        System.out.println("Enter second number: ");
         int denominator;
         int result;
 
