@@ -9,7 +9,7 @@ public class ExceptionTypes {
         System.out.println("Enter first number: ");
         int remainder = sc.nextInt();
         System.out.println("Enter second number: ");
-        int denominator;
+        int denominator = sc.nextInt();
         int result;
 
 
