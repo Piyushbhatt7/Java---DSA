@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class PracticeSet {
     
     public static void main(String[] args) {
@@ -27,9 +30,11 @@ public class PracticeSet {
 
         boolean flag = true;
         int marks [] = {7,56,6};
+        Scanner sc = new Scanner(System.in);
+        int index = sc.nextInt();
         while(flag)
         {
-
+           
         }
 
     }
