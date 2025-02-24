@@ -4,6 +4,9 @@ public class PracticeSet {
         
         // problem 1
         // Syntax Error - int a = 7
+        // int age = 78;
+        // int year_born = 2000-78;
+        
 
     }
 }
