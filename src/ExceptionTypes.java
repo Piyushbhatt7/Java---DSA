@@ -12,6 +12,17 @@ public class ExceptionTypes {
         int denominator = sc.nextInt();
         int result;
 
+        try{
+
+            result = remainder / denominator;
+            System.out.println("Result: " + result);
+        }
+
+        catch(ArithmeticException e)
+        {
+            
+        }
+
 
     }
 }
