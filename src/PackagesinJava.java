@@ -3,6 +3,6 @@ public class PackagesinJava {
     
     public static void main(String[] args) {
         
-        System.out.println("This a  package in java");
+        System.out.println("This is a package in java");
     }
 }
