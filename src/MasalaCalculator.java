@@ -13,6 +13,8 @@ public class MasalaCalculator {
         
          // which throws the following exceptions :-
 
-         //1. Invalid Input Exception ex : 8 & 9
+         // 1. Invalid Input Exception ex : 8 & 9
+         // 2. Cannot divide by 0 Exception
+         // 3. Max Input Exception
     }
 }
