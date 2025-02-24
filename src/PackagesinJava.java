@@ -1,4 +1,4 @@
- package piyush.lean;
+package piyush.lean;
 import java.util.Scanner;
 
 public class PackagesinJava {
