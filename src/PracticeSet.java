@@ -52,5 +52,10 @@ public class PracticeSet {
         //flag = false;
     }
 
+    if(i>=5)
+    {
+        System.out.println("Error");
+    }
+
     }
 }
