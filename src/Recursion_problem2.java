@@ -6,7 +6,7 @@ public class Recursion_problem2 {
       {
          for(int j=0; i<=i; j++)
          {
-            System.out.println("*");
+            System.out.print("*");
          }
          System.out.println();
       }
@@ -14,5 +14,6 @@ public class Recursion_problem2 {
 
     public static void main(String[] args) {
         
+        patter1(5);
     }
 }
