@@ -13,8 +13,8 @@ public class recursion {
       
     }
     public static void main(String[] args) {
-        
-        System.out.println("The value of factorial n is: " + fact(0));
         int n = 5;
+        System.out.println("The value of factorial n is: " + fact(n));
+        
     }
 }
