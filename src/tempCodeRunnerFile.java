@@ -1,1 +1,1 @@
-throw new NegativeRadiusException();
+n
