@@ -1,5 +1,6 @@
 public class Recursion_problem3 {
     
+    // fibonnacci series using recursion
     static int sumRect(int n)
 
     {
