@@ -16,4 +16,4 @@ public class Recursion_problem2 {
         
         patter1(5);
     }  
-}
+} 
