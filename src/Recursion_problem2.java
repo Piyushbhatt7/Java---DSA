@@ -6,7 +6,7 @@ public class Recursion_problem2 {
       {
          for(int j=0; j<i+1; j++)  
          {
-            System.out.print("*"); 
+            System.out.print("*");  
          }
          System.out.println();
       }
