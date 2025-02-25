@@ -9,7 +9,7 @@ public class Recursion_problem2 {
             System.out.print("*");  
          }
          System.out.println();
-      }
+      } 
    }
 
     public static void main(String[] args) {
