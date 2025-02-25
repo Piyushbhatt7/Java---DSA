@@ -4,7 +4,7 @@ public class Recursion_problem2 {
    {
       for(int i=0; i<n; i++)
       {
-        
+         
       }
    }
 
