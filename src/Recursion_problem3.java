@@ -14,7 +14,7 @@ public class Recursion_problem3 {
     }
     public static void main(String[] args) {
         
-        int n = 5;
+        int n = sumRect(3);
         System.out.println(sumRect(n));
     }
 }
