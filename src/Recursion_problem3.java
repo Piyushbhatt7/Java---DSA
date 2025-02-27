@@ -10,7 +10,7 @@ public class Recursion_problem3 {
             return 1;
         } 
 
-        else {   
+        else {    
             return n + sumRect(n-1);
         } 
     } 
