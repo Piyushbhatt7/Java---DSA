@@ -20,3 +20,4 @@ public class Recursion_problem3 {
         System.out.println(sumRect(n));
     }
 }
+ 
