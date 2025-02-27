@@ -11,7 +11,7 @@ public class Recursion_problem3 {
         } 
 
         else {     
-            return n + sumRect(n-1);
+            return n + sumRect(n-1); 
         } 
     } 
     public static void main(String[] args) {
