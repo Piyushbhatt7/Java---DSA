@@ -1,7 +1,7 @@
 public class Recursion_problem3 {
     
     // fibonnacci series using recursion
-    // sum(n) = 1+2+3+4+5.....+n-1+n
+    // sum(n) = 1+2+3+4+5.....+n-1+n 
     static int sumRect(int n)
 
     { 
