@@ -4,7 +4,7 @@ public class Recursion_problem3 {
     // sum(n) = 1+2+3+4+5.....+n-1+n
     static int sumRect(int n)
 
-    {
+    { 
         if(n==1)
         {
             return 1;
