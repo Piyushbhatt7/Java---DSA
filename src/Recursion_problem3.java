@@ -8,7 +8,7 @@ public class Recursion_problem3 {
         if(n==1)  
         { 
             return 1;      
-        }   
+        }    
  
         else {     
             return n + sumRect(n-1);  
