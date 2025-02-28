@@ -6,6 +6,7 @@ public class Recursion_harry {
     {
         System.out.format("%d x %d = %d\n", n, i, n*i);
     } 
+    
    } 
 
     public static void main(String[] args) {
