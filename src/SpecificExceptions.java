@@ -7,7 +7,7 @@ public class SpecificExceptions {
         
         int marks[] = new int [3];
         marks[0] = 7;
-        marks[1] = 56;
+        marks[1] = 56;e
         marks[2] = 12;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array index");
