@@ -1,3 +1,5 @@
+package piyush1;
+
 public class Piyush {
     
     public static void main(String[] args) {
